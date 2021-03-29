@@ -3,6 +3,7 @@
 ! Homepage: https://github.com/WellWells/ublock-list
 ||www.ctbcbank.com/content/dam/ctbc-ib/zh_rb/general/ebhomepage/login*.jpg$image
 ||www.ctbcbank.com/app/ctbc/ib/inc/img/login/login*.png$image
+english.stackexchange.com##.js-dismissable-hero
 www.ctbcbank.com##div.col-lg-6.col-md-12.col-sm-12.col-12:nth-of-type(2)
 www.theverge.com##.adblock-allowlist-messaging__iframe
 www.cnbeta.com##.article-share-code
