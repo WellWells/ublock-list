@@ -21,11 +21,11 @@ superuser.com##.js-consent-banner
 ###share-box
 ##.cookie-notice-container
 *##.acca-block
-*##[class^=""acca-block""]
-*##[class^=""AD_wrapper""]
-*##[class^=""adsby""]
-*##[class^=""ad-single""]
-*##[class^=""Read-More-Ads""]
+*##[class^="acca-block"]
+*##[class^="AD_wrapper"]
+*##[class^="adsby"]
+*##[class^="ad-single"]
+*##[class^="Read-More-Ads"]
 *://*.facebook.com/*change_read_status
 *://*.facebook.com/*mark_seen.php*
 *://*.facebook.com/*typ.php*
