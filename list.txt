@@ -1,6 +1,18 @@
 ! Title: Essential Blocklist for Taiwan website
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/WellWells/ublock-list
+||www.ctbcbank.com/content/dam/ctbc-ib/zh_rb/general/ebhomepage/login*.jpg$image
+||www.ctbcbank.com/app/ctbc/ib/inc/img/login/login*.png$image
+www.ctbcbank.com##div.col-lg-6.col-md-12.col-sm-12.col-12:nth-of-type(2)
+www.theverge.com##.adblock-allowlist-messaging__iframe
+www.cnbeta.com##.article-share-code
+www.mobile01.com##.fixedbottom
+www.mobile01.com##.docking_share
+blog.gslin.org##.header-image
+news.tvbs.com.tw##.web-push
+news.tvbs.com.tw##.fixed_bar
+news.tvbs.com.tw##.header_banner
+tvbs.com.tw##.tagboard-embed
 ##.cookie_box
 superuser.com##.js-dismissable-hero
 superuser.com##.js-consent-banner
@@ -95,6 +107,7 @@ feedly.com###librarytab_header
 feedly.com##.dot-pulse.dot.top-right
 feedly.com##.modal-overlay.is-inline.is-fading
 feedly.com##.small.primary.pro
+feedly.com##.small.button--primary.pro
 finance.technews.tw##.ad-blocking-advisor-wrapper
 fish.kikinote.net
 fullfenblog.tw##.achang_Content_wrap > p:nth-of-type(6)
