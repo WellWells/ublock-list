@@ -1,6 +1,7 @@
 ! Title: Essential Blocklist for Taiwan website
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/WellWells/ublock-list
+##.policies
 ###cookieconsent
 ##.js-consent-banner
 ##.js-dismissable-hero
