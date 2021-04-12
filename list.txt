@@ -2,7 +2,8 @@
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/WellWells/ublock-list
 ##.policies
-###cookieconsent
+##[class^="cookieconsent"]
+##[class^="cookie-notice"]
 ##.js-consent-banner
 ##.js-dismissable-hero
 ||www.ctbcbank.com/content/dam/ctbc-ib/zh_rb/general/ebhomepage/login*.jpg$image
