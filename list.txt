@@ -2,6 +2,7 @@
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/WellWells/ublock-list
 ##.policies
+unwire.hk###cookie
 ##[class^="cookieconsent"]
 ##[class^="cookie-notice"]
 ##.js-consent-banner
