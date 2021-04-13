@@ -1,28 +1,16 @@
 ! Title: Essential Blocklist for Taiwan website
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/WellWells/ublock-list
-##.policies
-unwire.hk###cookie
-##[class^="cookieconsent"]
-##[class^="cookie-notice"]
+###share-box
+##.cookie_box
+##.cookie-notice-container
 ##.js-consent-banner
 ##.js-dismissable-hero
-||www.ctbcbank.com/content/dam/ctbc-ib/zh_rb/general/ebhomepage/login*.jpg$image
-||www.ctbcbank.com/app/ctbc/ib/inc/img/login/login*.png$image
-www.ctbcbank.com##div.col-lg-6.col-md-12.col-sm-12.col-12:nth-of-type(2)
-www.theverge.com##.adblock-allowlist-messaging__iframe
-www.cnbeta.com##.article-share-code
-www.mobile01.com##.fixedbottom
-www.mobile01.com##.docking_share
-blog.gslin.org##.header-image
-news.tvbs.com.tw##.web-push
-news.tvbs.com.tw##.fixed_bar
-news.tvbs.com.tw##.header_banner
-tvbs.com.tw##.tagboard-embed
-##.cookie_box
+##.policies
 ##.privacyforsite
-###share-box
-##.cookie-notice-container
+##[class^="cookieconsent"]
+##[class^="cookie-notice"]
+##[class^="notice--cookie"]
 *##.acca-block
 *##[class^="acca-block"]
 *##[class^="AD_wrapper"]
@@ -64,6 +52,8 @@ tvbs.com.tw##.tagboard-embed
 ||udn.com^$inline-script
 ||unwire.hk^$inline-script
 ||wired.com^$script
+||www.ctbcbank.com/app/ctbc/ib/inc/img/login/login*.png$image
+||www.ctbcbank.com/content/dam/ctbc-ib/zh_rb/general/ebhomepage/login*.jpg$image
 ||www.ewdna.com^$script
 ||www.twreporter.org^$inline-script
 ||www5.technews.tw/www/delivery/afr.php
@@ -78,6 +68,7 @@ api.kikinote.net
 app.getpocket.com##.css-1uezb08
 app.getpocket.com##.css-3ceer
 auth.kikinote.net
+blog.gslin.org##.header-image
 buzzorange.com##.adNoSex
 buzzorange.com##.fancybox-overlay
 buzzorange.com##.fancybox-wrap
@@ -110,8 +101,8 @@ feedly.com###integrationstab_header
 feedly.com###librarytab_header
 feedly.com##.dot-pulse.dot.top-right
 feedly.com##.modal-overlay.is-inline.is-fading
-feedly.com##.small.primary.pro
 feedly.com##.small.button--primary.pro
+feedly.com##.small.primary.pro
 finance.technews.tw##.ad-blocking-advisor-wrapper
 fish.kikinote.net
 fullfenblog.tw##.achang_Content_wrap > p:nth-of-type(6)
@@ -129,9 +120,14 @@ may1215may.pixnet.net###header
 mrmad.com.tw###footer
 mrmad.com.tw##.entry-content > div:nth-of-type(4)
 news.ltn.com.tw###checkIE
+news.tvbs.com.tw##.fixed_bar
+news.tvbs.com.tw##.header_banner
+news.tvbs.com.tw##.web-push
 nmac.to##.signoff
 pansci.asia#@#.ad-container
 peanutwalker.com###sidebar
+pixnet.net##.pixnet-happix-pilot__launcher-bar-desktop
+pixnet.net##.pixnet-happix-pilot__launcher-bubble
 safood.tw###sidebar
 safood.tw##blockquote
 sentry.io
@@ -151,11 +147,15 @@ technews.tw##.newsLetter_articleContent
 technews.tw##[class^=""inside_AD""]
 technews.tw##[id^=""div-gpt-ad""]
 theme.udn.com###show_box
+tvbs.com.tw##.tagboard-embed
 tw.appledaily.com###div-GDPR-message
 tw.news.yahoo.com###YDC-Col1-Stack > div > div:nth-of-type(5)
 unsplash.com##._3rh8J
+unwire.hk###cookie
 www.chinatimes.com##.affiliates
+www.cnbeta.com##.article-share-code
 www.cool3c.com###menu-sidebar
+www.ctbcbank.com##div.col-lg-6.col-md-12.col-sm-12.col-12:nth-of-type(2)
 www.cw.com.tw###author-track-notification
 www.cw.com.tw###cookie-bar
 www.cw.com.tw###newletter-subscribe
@@ -188,6 +188,8 @@ www.ithome.com.tw###block-block-45
 www.kocpc.com.tw###header
 www.kocpc.com.tw##.the-logo-at-top
 www.landiannews.com##.special-message-wrapper
+www.mobile01.com##.docking_share
+www.mobile01.com##.fixedbottom
 www.peak-system.com###CookieBox
 www.pinterest.com###__PWS_ROOT__ > .Hsu.iyn.zI7 > div > .Hsu.iyn.zI7 > div > div
 www.pinterest.com###credential_picker_container
@@ -210,7 +212,9 @@ www.techbang.com##.ad-banner
 www.techbang.com##.adsbygoogle
 www.techbang.com##.ad-section
 www.techbang.com##.google-dfp
+www.techbang.com##.newsletter-subscribe
 www.techbang.com##.post-side
+www.theverge.com##.adblock-allowlist-messaging__iframe
 www.wikiwand.com##.page_copyright
 www.wikiwand.com##.wikiwand_footer
 www.xtube.com##.expandAside.col10-xxl-3.col-xl-8.col-xs-24
