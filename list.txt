@@ -37,7 +37,6 @@
 ||i17fun.com^$script
 ||ieeexplore.ieee.org/customer_logos/$image
 ||inside.com.tw^$script
-||kikinote.net^$inline-script
 ||lastpass.com/ads.php$1p
 ||ltn.com.tw^$script
 ||minwt.com^$script
