@@ -38,7 +38,6 @@
 ||ieeexplore.ieee.org/customer_logos/$image
 ||inside.com.tw^$script
 ||lastpass.com/ads.php$1p
-||ltn.com.tw^$script
 ||minwt.com^$script
 ||mrmad.com.tw^$script
 ||newtalk.tw^$script
