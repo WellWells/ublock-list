@@ -218,4 +218,17 @@ www.wikiwand.com##.wikiwand_footer
 www.xtube.com##.expandAside.col10-xxl-3.col-xl-8.col-xs-24
 xclient.info###abptip
 xclient.info##.notice_tip
+xclient.info##.show.abptip
 xn--fhq444at0i92w.com
+blog.gslin.org##.site-header
+www.litv.tv##.browser_not_support.alert_module
+news.ltn.com.tw##.softPush_notification
+www.setn.com##.hidden-print.rightFloat
+www.setn.com##.fadeInDown.animated.privacy-area
+junkcall.org##.hp_search
+junkcall.org##.in.collapse
+winaero.com###post-31772 > .entry-content > div
+www.peak-system.com###CookieBox
+vuetifyjs.com##.v-snack--top.v-snack--has-background.v-snack--active.v-snack
+materializecss.com##.patreon-ad
+stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.sm\:p16.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
