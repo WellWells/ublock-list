@@ -215,7 +215,6 @@ unsplash.com##._38MNN._30ce3
 unsplash.com##._3rh8J
 unwire.hk###cookie
 vuetifyjs.com##.v-snack--top.v-snack--has-background.v-snack--active.v-snack
-vuetifyjs.com##.v-snack--top.v-snack--has-background.v-snack--active.v-snack
 web.dev##web-snackbar-container
 winaero.com###post-31772 > .entry-content > div
 www.benq.com##.component-header.component.line_cookies
@@ -244,7 +243,6 @@ www.ettoday.net##.overlap
 www.fooding.com.tw##.modal-overlay
 www.fooding.com.tw##.text-center.modal-privacy
 www.fox-saying.com###header
-www.fox-saying.com###header
 www.fox-saying.com###user-info
 www.icloud.com##.banner-view
 www.inside.com.tw###block-fb_comments
@@ -266,7 +264,6 @@ www.mobile01.com##.docking_share
 www.mobile01.com##.fixedbottom
 www.parenting.com.tw##.cookie
 www.peak-system.com###CookieBox
-www.peak-system.com###CookieBox
 www.pinterest.com###__PWS_ROOT__ > .Hsu.iyn.zI7 > div > .Hsu.iyn.zI7 > div > div
 www.pinterest.com###credential_picker_container
 www.pinterest.com##.Hsu.iyn.zI7.wYR.hA-._he.Lgc
@@ -282,7 +279,6 @@ www.soft4fun.net##.blockPage
 www.soft4fun.net##.blockUI
 www.syncfusion.com###CookieNotification
 www.techbang.com###dmRelatedPlayer
-www.techbang.com###idle-container
 www.techbang.com###idle-container
 www.techbang.com###post-additional
 www.techbang.com###stickie_70008519251060
