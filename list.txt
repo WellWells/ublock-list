@@ -2,21 +2,19 @@
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/WellWells/ublock-list
 ###share-box
-##.cookie_box
-##.cookie-notice-container
-##.js-consent-banner
 ##.js-dismissable-hero
 ##.policies
 ##.privacyforsite
-##[class^="cookieconsent"]
-##[class^="cookie-notice"]
-##[class^="notice--cookie"]
-*##.acca-block
+*##.js-consent-banner
 *##[class^="acca-block"]
 *##[class^="AD_wrapper"]
 *##[class^="adsby"]
 *##[class^="ad-single"]
 *##[class^="Read-More-Ads"]
+*##div[class*="ad--"]
+*##div[class*="cookie"]
+*##div[class*="gdrp"]
+*##div[class*="policy-div"]
 *://*.facebook.com/*change_read_status
 *://*.facebook.com/*mark_seen.php*
 *://*.facebook.com/*typ.php*
@@ -96,6 +94,7 @@ downloadly.ir###najva-popup
 dq.yam.com###dqstoreBox
 dq.yam.com###yd-PlugIn
 dq.yam.com##.ga_trackEvent.noteBar
+ec.ltn.com.tw##.softPush_notification
 ent.ltn.com.tw###one
 ent.ltn.com.tw##.adright_bar
 ent.ltn.com.tw##.boxTitle.app
@@ -112,10 +111,13 @@ finance.technews.tw##.ad-blocking-advisor-wrapper
 fish.kikinote.net
 fullfenblog.tw##.achang_Content_wrap > p:nth-of-type(6)
 fullfenblog.tw##blockquote
+google.*##div.g:has(div[data-hveid] a[href*="1applehealth.com"])
 google.*##div.g:has(div[data-hveid] a[href*="366service.com"])
 google.*##div.g:has(div[data-hveid] a[href*="7box.vip"])
+google.*##div.g:has(div[data-hveid] a[href*="abitareprjct.co"])
 google.*##div.g:has(div[data-hveid] a[href*="apple01"])
 google.*##div.g:has(div[data-hveid] a[href*="bangqu.com"])
+google.*##div.g:has(div[data-hveid] a[href*="bizdatatw.com"])
 google.*##div.g:has(div[data-hveid] a[href*="buzzhand.com"])
 google.*##div.g:has(div[data-hveid] a[href*="buzzhand.net"])
 google.*##div.g:has(div[data-hveid] a[href*="buzzhand.org"])
@@ -128,6 +130,9 @@ google.*##div.g:has(div[data-hveid] a[href*="coder.work"])
 google.*##div.g:has(div[data-hveid] a[href*="codertw.com"])
 google.*##div.g:has(div[data-hveid] a[href*="fbiavip.com"])
 google.*##div.g:has(div[data-hveid] a[href*="hklocalpress.com"])
+google.*##div.g:has(div[data-hveid] a[href*="igotojapan.com"])
+google.*##div.g:has(div[data-hveid] a[href*="igotojapan.com"])
+google.*##div.g:has(div[data-hveid] a[href*="ireview.tw"])
 google.*##div.g:has(div[data-hveid] a[href*="iso2.cc"])
 google.*##div.g:has(div[data-hveid] a[href*="iso2.cx"])
 google.*##div.g:has(div[data-hveid] a[href*="itdaan.com"])
@@ -141,19 +146,38 @@ google.*##div.g:has(div[data-hveid] a[href*="kknews.cc"])
 google.*##div.g:has(div[data-hveid] a[href*="kutu66.com"])
 google.*##div.g:has(div[data-hveid] a[href*="manongdao.com"])
 google.*##div.g:has(div[data-hveid] a[href*="moptt.tw"])
+google.*##div.g:has(div[data-hveid] a[href*="needmorefood.com"])
+google.*##div.g:has(div[data-hveid] a[href*="neon-pet.com"])
+google.*##div.g:has(div[data-hveid] a[href*="notebz.com"])
+google.*##div.g:has(div[data-hveid] a[href*="pangu8.com"])
+google.*##div.g:has(div[data-hveid] a[href*="pangu8.com"])
 google.*##div.g:has(div[data-hveid] a[href*="peekme.cc"])
+google.*##div.g:has(div[data-hveid] a[href*="ppfocus.com"])
+google.*##div.g:has(div[data-hveid] a[href*="ppfocus.com"])
 google.*##div.g:has(div[data-hveid] a[href*="presslocalhk.com"])
 google.*##div.g:has(div[data-hveid] a[href*="pressyourmum.com"])
 google.*##div.g:has(div[data-hveid] a[href*="ptt01"])
 google.*##div.g:has(div[data-hveid] a[href*="read01.com"])
+google.*##div.g:has(div[data-hveid] a[href*="review.com.tw"])
 google.*##div.g:has(div[data-hveid] a[href*="setn.com"])
+google.*##div.g:has(div[data-hveid] a[href*="softwarebrother.com"])
 google.*##div.g:has(div[data-hveid] a[href*="stackoom.com"])
 google.*##div.g:has(div[data-hveid] a[href*="teepr.com"])
 google.*##div.g:has(div[data-hveid] a[href*="thinbug.com"])
+google.*##div.g:has(div[data-hveid] a[href*="todohealth.com"])
 google.*##div.g:has(div[data-hveid] a[href*="twblogs.net"])
+google.*##div.g:has(div[data-hveid] a[href*="tweak-box"])
+google.*##div.g:has(div[data-hveid] a[href*="tweak-box"])
 google.*##div.g:has(div[data-hveid] a[href*="twgreatdaily"])
+google.*##div.g:has(div[data-hveid] a[href*="twhowto.com"])
 google.*##div.g:has(div[data-hveid] a[href*="uwenku.com"])
 google.*##div.g:has(div[data-hveid] a[href*="yuutoday.com"])
+google.*##div.g:has(div[data-hveid] a[href*="zeejb.com"])
+google.*##div.g:has(div[data-hveid] a[href*="zeejb.com"])
+google.*##div.g:has(div[data-hveid] a[href*="zhtw.med-mash.ru"])
+google.*##div.g:has(div[data-hveid] a[href*="zhtw.med-mash.ru"])
+google.*##div.g:has(div[data-hveid] a[href*="zjailbreak.com"])
+google.*##div.g:has(div[data-hveid] a[href*="zjailbreak.com"])
 health.udn.com###show_box
 helpscout.net
 hk.appledaily.com##.cookies-container
@@ -164,6 +188,7 @@ interestingengineering.com###cookie-warning
 junkcall.org##.hp_search
 junkcall.org##.in.collapse
 kheresy.wordpress.com##.widget_eu_cookie_law_widget.widget
+kikinote.net##^script:has-text(society)
 likr.app
 likr.com.tw
 m.mobile01.com##.fixedbottom
@@ -187,6 +212,7 @@ regex101.com##._2C1Ky._3Brs_
 safood.tw###sidebar
 safood.tw##blockquote
 sentry.io
+shopee.*##div.shopee-search-item-result__item:has(div[data-sqe] div[data-sqe*="ad"])
 sirinsoftware.com##.e242luo0.css-1dqskd5-Container
 sspai.com##.clock.article-margin.recommend
 sspai.com##.fixed-guide
@@ -257,6 +283,7 @@ www.ithome.com##.AdblockBanner
 www.ithome.com##.shareto
 www.ithome.com.tw###block-block-45
 www.kocpc.com.tw###header
+www.kocpc.com.tw##.q2w3-fixed-widget-container
 www.kocpc.com.tw##.the-logo-at-top
 www.landiannews.com##.special-message-wrapper
 www.litv.tv##.browser_not_support.alert_module
@@ -295,6 +322,7 @@ www.tt1069.com##.a_t.wp > table > tbody
 www.wikiwand.com##.page_copyright
 www.wikiwand.com##.wikiwand_footer
 www.xtube.com##.expandAside.col10-xxl-3.col-xl-8.col-xs-24
+www.youtube.com##ytd-popup-container.ytd-app.style-scope
 xclient.info###abptip
 xclient.info##.notice_tip
 xclient.info##.show.abptip
