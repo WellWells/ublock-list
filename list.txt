@@ -1,10 +1,10 @@
 ! Title: Essential Blocklist for Taiwan website
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/WellWells/ublock-list
-###share-box
-##.js-dismissable-hero
-##.policies
-##.privacyforsite
+*###share-box
+*##.js-dismissable-hero
+*##.policies
+*##.privacyforsite
 *##.js-consent-banner
 *##[class^="acca-block"]
 *##[class^="AD_wrapper"]
@@ -70,7 +70,6 @@ auth.kikinote.net
 blog.gslin.org##.header-image
 blog.gslin.org##.site-header
 blog.xuite.net###privacyDeclare
-buzzorange.com###cookie-law-info-bar
 buzzorange.com##.adNoSex
 buzzorange.com##.fancybox-overlay
 buzzorange.com##.fancybox-wrap
@@ -180,14 +179,10 @@ google.*##div.g:has(div[data-hveid] a[href*="zjailbreak.com"])
 google.*##div.g:has(div[data-hveid] a[href*="zjailbreak.com"])
 health.udn.com###show_box
 helpscout.net
-hk.appledaily.com##.cookies-container
 ieeexplore.ieee.org###maintenance-notification
 ieeexplore.ieee.org##.cc-color-override-170793312.cc-bottom.cc-theme-block.cc-type-info.cc-banner.cc-window
-insight.synology.com##.App_cookieBanner_16mfu
-interestingengineering.com###cookie-warning
 junkcall.org##.hp_search
 junkcall.org##.in.collapse
-kheresy.wordpress.com##.widget_eu_cookie_law_widget.widget
 kikinote.net##^script:has-text(society)
 likr.app
 likr.com.tw
@@ -239,20 +234,16 @@ tw.news.yahoo.com###YDC-Col1-Stack > div > div:nth-of-type(5)
 unsplash.com##._2vZEJ
 unsplash.com##._38MNN._30ce3
 unsplash.com##._3rh8J
-unwire.hk###cookie
 vuetifyjs.com##.v-snack--top.v-snack--has-background.v-snack--active.v-snack
 web.dev##web-snackbar-container
 winaero.com###post-31772 > .entry-content > div
-www.benq.com##.component-header.component.line_cookies
 www.chinatimes.com##.affiliates
 www.cna.com.tw##.appDownload.paragraph.jsAppDownload
 www.cna.com.tw##.need.privacy-bar
 www.cnbeta.com##.article-share-code
-www.commonhealth.com.tw##.animateElement--bounceInUp.animateElement.cookieBar
 www.cool3c.com###menu-sidebar
 www.ctbcbank.com##div.col-lg-6.col-md-12.col-sm-12.col-12:nth-of-type(2)
 www.cw.com.tw###author-track-notification
-www.cw.com.tw###cookie-bar
 www.cw.com.tw###newletter-subscribe
 www.cw.com.tw##.cw__advertising
 www.cw.com.tw##.fixed.logInStatus.main.paywallAnnounce
@@ -277,7 +268,6 @@ www.inside.com.tw##.content > .container > .subscribe_block
 www.inside.com.tw##.job
 www.inside.com.tw##.job_feed_block
 www.inside.com.tw##.js-post_footer.post_footer
-www.ios-repo-updates.com###cookieChoiceInfo
 www.ithome.com###side_func
 www.ithome.com##.AdblockBanner
 www.ithome.com##.shareto
@@ -289,8 +279,6 @@ www.landiannews.com##.special-message-wrapper
 www.litv.tv##.browser_not_support.alert_module
 www.mobile01.com##.docking_share
 www.mobile01.com##.fixedbottom
-www.parenting.com.tw##.cookie
-www.peak-system.com###CookieBox
 www.pinterest.com###__PWS_ROOT__ > .Hsu.iyn.zI7 > div > .Hsu.iyn.zI7 > div > div
 www.pinterest.com###credential_picker_container
 www.pinterest.com##.Hsu.iyn.zI7.wYR.hA-._he.Lgc
@@ -304,7 +292,6 @@ www.soft4fun.net##.blockMsg
 www.soft4fun.net##.blockOverlay
 www.soft4fun.net##.blockPage
 www.soft4fun.net##.blockUI
-www.syncfusion.com###CookieNotification
 www.techbang.com###dmRelatedPlayer
 www.techbang.com###idle-container
 www.techbang.com###post-additional
