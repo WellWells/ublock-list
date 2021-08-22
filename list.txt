@@ -2,18 +2,20 @@
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/WellWells/ublock-list
 *###cookie
+*###Cookie
 *###share-box
 *##.js-consent-banner
 *##.js-dismissable-hero
 *##.policies
 *##.privacyforsite
+*##[class*="cookie"]
+*##[class*="Cookie"]
 *##[class^="acca-block"]
 *##[class^="AD_wrapper"]
 *##[class^="adsby"]
 *##[class^="ad-single"]
 *##[class^="Read-More-Ads"]
 *##div[class*="ad--"]
-*##div[class*="cookie"]
 *##div[class*="gdrp"]
 *##div[class*="policy-div"]
 *://*.facebook.com/*change_read_status
@@ -112,6 +114,7 @@ fullfenblog.tw##.achang_Content_wrap > p:nth-of-type(6)
 fullfenblog.tw##blockquote
 google.*##div.g:has(div[data-hveid] a[href*="1applehealth.com"])
 google.*##div.g:has(div[data-hveid] a[href*="366service.com"])
+google.*##div.g:has(div[data-hveid] a[href*="3csilo.com"])
 google.*##div.g:has(div[data-hveid] a[href*="7box.vip"])
 google.*##div.g:has(div[data-hveid] a[href*="abitareprjct.co"])
 google.*##div.g:has(div[data-hveid] a[href*="apple01"])
@@ -127,6 +130,7 @@ google.*##div.g:has(div[data-hveid] a[href*="codebug.vip"])
 google.*##div.g:has(div[data-hveid] a[href*="codenong.com"])
 google.*##div.g:has(div[data-hveid] a[href*="coder.work"])
 google.*##div.g:has(div[data-hveid] a[href*="codertw.com"])
+google.*##div.g:has(div[data-hveid] a[href*="cubik.com.tw"])
 google.*##div.g:has(div[data-hveid] a[href*="easylife.tw"])
 google.*##div.g:has(div[data-hveid] a[href*="ez3c"])
 google.*##div.g:has(div[data-hveid] a[href*="fbiavip.com"])
@@ -143,10 +147,12 @@ google.*##div.g:has(div[data-hveid] a[href*="it-swarm.dev"])
 google.*##div.g:has(div[data-hveid] a[href*="jb51.net"])
 google.*##div.g:has(div[data-hveid] a[href*="jeepxie.net"])
 google.*##div.g:has(div[data-hveid] a[href*="jishuwen.com"])
+google.*##div.g:has(div[data-hveid] a[href*="johntool.com"])
 google.*##div.g:has(div[data-hveid] a[href*="jpworkingholiday.com"])
 google.*##div.g:has(div[data-hveid] a[href*="jpworktravel.com"])
 google.*##div.g:has(div[data-hveid] a[href*="kknews.cc"])
 google.*##div.g:has(div[data-hveid] a[href*="kutu66.com"])
+google.*##div.g:has(div[data-hveid] a[href*="manage-money.com"])
 google.*##div.g:has(div[data-hveid] a[href*="manongdao.com"])
 google.*##div.g:has(div[data-hveid] a[href*="moptt.tw"])
 google.*##div.g:has(div[data-hveid] a[href*="needmorefood.com"])
@@ -167,18 +173,23 @@ google.*##div.g:has(div[data-hveid] a[href*="softwarebrother.com"])
 google.*##div.g:has(div[data-hveid] a[href*="stackoom.com"])
 google.*##div.g:has(div[data-hveid] a[href*="teepr.com"])
 google.*##div.g:has(div[data-hveid] a[href*="thinbug.com"])
+google.*##div.g:has(div[data-hveid] a[href*="tiwispend.com"])
 google.*##div.g:has(div[data-hveid] a[href*="todohealth.com"])
+google.*##div.g:has(div[data-hveid] a[href*="travellifeway.com"])
 google.*##div.g:has(div[data-hveid] a[href*="twblogs.net"])
 google.*##div.g:has(div[data-hveid] a[href*="tweak-box"])
 google.*##div.g:has(div[data-hveid] a[href*="twgreatdaily"])
 google.*##div.g:has(div[data-hveid] a[href*="twhowto.com"])
 google.*##div.g:has(div[data-hveid] a[href*="uwenku.com"])
+google.*##div.g:has(div[data-hveid] a[href*="vpn"])
 google.*##div.g:has(div[data-hveid] a[href*="yuutoday.com"])
 google.*##div.g:has(div[data-hveid] a[href*="zeejb.com"])
 google.*##div.g:has(div[data-hveid] a[href*="zhaotwcom.com"])
 google.*##div.g:has(div[data-hveid] a[href*="zhtw.med-mash.ru"])
 google.*##div.g:has(div[data-hveid] a[href*="zjailbreak.com"])
 health.udn.com###show_box
+heljohntool.com
+heljohntool.com
 helpscout.net
 ieeexplore.ieee.org###maintenance-notification
 ieeexplore.ieee.org##.cc-color-override-170793312.cc-bottom.cc-theme-block.cc-type-info.cc-banner.cc-window
