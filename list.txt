@@ -1,11 +1,12 @@
 ! Title: Essential Blocklist for Taiwan website
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/WellWells/ublock-list
+*###cookie
 *###share-box
+*##.js-consent-banner
 *##.js-dismissable-hero
 *##.policies
 *##.privacyforsite
-*##.js-consent-banner
 *##[class^="acca-block"]
 *##[class^="AD_wrapper"]
 *##[class^="adsby"]
@@ -68,7 +69,6 @@ app.getpocket.com##.css-3ceer
 appleinsider.com##.primis-ad-wrap
 auth.kikinote.net
 blog.gslin.org##.header-image
-blog.gslin.org##.site-header
 blog.xuite.net###privacyDeclare
 buzzorange.com##.adNoSex
 buzzorange.com##.fancybox-overlay
@@ -127,9 +127,11 @@ google.*##div.g:has(div[data-hveid] a[href*="codebug.vip"])
 google.*##div.g:has(div[data-hveid] a[href*="codenong.com"])
 google.*##div.g:has(div[data-hveid] a[href*="coder.work"])
 google.*##div.g:has(div[data-hveid] a[href*="codertw.com"])
+google.*##div.g:has(div[data-hveid] a[href*="easylife.tw"])
+google.*##div.g:has(div[data-hveid] a[href*="ez3c"])
 google.*##div.g:has(div[data-hveid] a[href*="fbiavip.com"])
+google.*##div.g:has(div[data-hveid] a[href*="goda.com"])
 google.*##div.g:has(div[data-hveid] a[href*="hklocalpress.com"])
-google.*##div.g:has(div[data-hveid] a[href*="igotojapan.com"])
 google.*##div.g:has(div[data-hveid] a[href*="igotojapan.com"])
 google.*##div.g:has(div[data-hveid] a[href*="ireview.tw"])
 google.*##div.g:has(div[data-hveid] a[href*="iso2.cc"])
@@ -141,6 +143,8 @@ google.*##div.g:has(div[data-hveid] a[href*="it-swarm.dev"])
 google.*##div.g:has(div[data-hveid] a[href*="jb51.net"])
 google.*##div.g:has(div[data-hveid] a[href*="jeepxie.net"])
 google.*##div.g:has(div[data-hveid] a[href*="jishuwen.com"])
+google.*##div.g:has(div[data-hveid] a[href*="jpworkingholiday.com"])
+google.*##div.g:has(div[data-hveid] a[href*="jpworktravel.com"])
 google.*##div.g:has(div[data-hveid] a[href*="kknews.cc"])
 google.*##div.g:has(div[data-hveid] a[href*="kutu66.com"])
 google.*##div.g:has(div[data-hveid] a[href*="manongdao.com"])
@@ -149,9 +153,9 @@ google.*##div.g:has(div[data-hveid] a[href*="needmorefood.com"])
 google.*##div.g:has(div[data-hveid] a[href*="neon-pet.com"])
 google.*##div.g:has(div[data-hveid] a[href*="notebz.com"])
 google.*##div.g:has(div[data-hveid] a[href*="pangu8.com"])
-google.*##div.g:has(div[data-hveid] a[href*="pangu8.com"])
 google.*##div.g:has(div[data-hveid] a[href*="peekme.cc"])
-google.*##div.g:has(div[data-hveid] a[href*="ppfocus.com"])
+google.*##div.g:has(div[data-hveid] a[href*="pharmknow.com"])
+google.*##div.g:has(div[data-hveid] a[href*="po3c"])
 google.*##div.g:has(div[data-hveid] a[href*="ppfocus.com"])
 google.*##div.g:has(div[data-hveid] a[href*="presslocalhk.com"])
 google.*##div.g:has(div[data-hveid] a[href*="pressyourmum.com"])
@@ -166,16 +170,13 @@ google.*##div.g:has(div[data-hveid] a[href*="thinbug.com"])
 google.*##div.g:has(div[data-hveid] a[href*="todohealth.com"])
 google.*##div.g:has(div[data-hveid] a[href*="twblogs.net"])
 google.*##div.g:has(div[data-hveid] a[href*="tweak-box"])
-google.*##div.g:has(div[data-hveid] a[href*="tweak-box"])
 google.*##div.g:has(div[data-hveid] a[href*="twgreatdaily"])
 google.*##div.g:has(div[data-hveid] a[href*="twhowto.com"])
 google.*##div.g:has(div[data-hveid] a[href*="uwenku.com"])
 google.*##div.g:has(div[data-hveid] a[href*="yuutoday.com"])
 google.*##div.g:has(div[data-hveid] a[href*="zeejb.com"])
-google.*##div.g:has(div[data-hveid] a[href*="zeejb.com"])
+google.*##div.g:has(div[data-hveid] a[href*="zhaotwcom.com"])
 google.*##div.g:has(div[data-hveid] a[href*="zhtw.med-mash.ru"])
-google.*##div.g:has(div[data-hveid] a[href*="zhtw.med-mash.ru"])
-google.*##div.g:has(div[data-hveid] a[href*="zjailbreak.com"])
 google.*##div.g:has(div[data-hveid] a[href*="zjailbreak.com"])
 health.udn.com###show_box
 helpscout.net
