@@ -1,29 +1,29 @@
 ! Title: Essential Blocklist for Taiwan website
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/WellWells/ublock-list
-*###cookie
-*###Cookie
-*###share-box
-*##.js-consent-banner
-*##.js-dismissable-hero
-*##.policies
-*##.privacyforsite
-*##[class*="cookie"]
-*##[class*="Cookie"]
-*##[class^="acca-block"]
-*##[class^="AD_wrapper"]
-*##[class^="adsby"]
-*##[class^="ad-single"]
-*##[class^="Read-More-Ads"]
-*##div[class*="ad--"]
-*##div[class*="gdrp"]
-*##div[class*="policy-div"]
 *://*.facebook.com/*change_read_status
 *://*.facebook.com/*mark_seen.php*
 *://*.facebook.com/*typ.php*
 *://*.messenger.com/*change_read_status*
 *://*.messenger.com/*mark_seen.php*
 *://*.messenger.com/*typ.php*
+*##.js-consent-banner
+*##.js-dismissable-hero
+*##[class*="cookie"]
+*##[class*="Cookie"]
+*##[class^="acca-block"]
+*##[class^="AD_wrapper"]
+*##[class^="ad-single"]
+*##[class^="adsby"]
+*##[class^="Read-More-Ads"]
+*##[id^="cookie"]
+*##[id^="Cookie"]
+*##[id^="policies"]
+*##[id^="privacyforsite"]
+*##[id^="share-box"]
+*##div[class*="ad--"]
+*##div[class*="gdrp"]
+*##div[class*="policy-div"]
 ||4co.tw^$script
 ||9to5mac.com^$script
 ||ads.techbang.com
@@ -82,31 +82,31 @@ cydia-app.com
 daily.zhihu.com##.download
 daily.zhihu.com##.global-header
 daily.zhihu.com##.qr
-decing.tw###header
-decing.tw###media_image-2
-decing.tw###media_image-3
-decing.tw###sidebar
 decing.tw##.achang_Content_wrap > h3
 decing.tw##.author_avatar.widget
 decing.tw##.fbbox
 decing.tw##.footer-logo
+decing.tw###header
+decing.tw###media_image-2
+decing.tw###media_image-3
+decing.tw###sidebar
 decing.tw##blockquote
 downloadly.ir###najva-popup
+dq.yam.com##.ga_trackEvent.noteBar
 dq.yam.com###dqstoreBox
 dq.yam.com###yd-PlugIn
-dq.yam.com##.ga_trackEvent.noteBar
 ec.ltn.com.tw##.softPush_notification
-ent.ltn.com.tw###one
 ent.ltn.com.tw##.adright_bar
 ent.ltn.com.tw##.boxTitle.app
 ent.ltn.com.tw##.boxTitle.entlogo_bar
-feedly.com###filtertab_header
-feedly.com###integrationstab_header
-feedly.com###librarytab_header
+ent.ltn.com.tw###one
 feedly.com##.dot-pulse.dot.top-right
 feedly.com##.modal-overlay.is-inline.is-fading
 feedly.com##.small.button--primary.pro
 feedly.com##.small.primary.pro
+feedly.com###filtertab_header
+feedly.com###integrationstab_header
+feedly.com###librarytab_header
 filecr.com##.site-footer
 finance.technews.tw##.ad-blocking-advisor-wrapper
 fish.kikinote.net
@@ -140,10 +140,10 @@ google.*##div.g:has(div[data-hveid] a[href*="igotojapan.com"])
 google.*##div.g:has(div[data-hveid] a[href*="ireview.tw"])
 google.*##div.g:has(div[data-hveid] a[href*="iso2.cc"])
 google.*##div.g:has(div[data-hveid] a[href*="iso2.cx"])
+google.*##div.g:has(div[data-hveid] a[href*="it-swarm.dev"])
 google.*##div.g:has(div[data-hveid] a[href*="itdaan.com"])
 google.*##div.g:has(div[data-hveid] a[href*="iter01.com"])
 google.*##div.g:has(div[data-hveid] a[href*="itread01.com"])
-google.*##div.g:has(div[data-hveid] a[href*="it-swarm.dev"])
 google.*##div.g:has(div[data-hveid] a[href*="jb51.net"])
 google.*##div.g:has(div[data-hveid] a[href*="jeepxie.net"])
 google.*##div.g:has(div[data-hveid] a[href*="jishuwen.com"])
@@ -191,8 +191,8 @@ health.udn.com###show_box
 heljohntool.com
 heljohntool.com
 helpscout.net
-ieeexplore.ieee.org###maintenance-notification
 ieeexplore.ieee.org##.cc-color-override-170793312.cc-bottom.cc-theme-block.cc-type-info.cc-banner.cc-window
+ieeexplore.ieee.org###maintenance-notification
 junkcall.org##.hp_search
 junkcall.org##.in.collapse
 kikinote.net##^script:has-text(society)
@@ -203,10 +203,10 @@ mailchimp.com
 materializecss.com##.patreon-ad
 may1215may.pixnet.net###banner
 may1215may.pixnet.net###header
-mrmad.com.tw###footer
 mrmad.com.tw##.entry-content > div:nth-of-type(4)
-news.ltn.com.tw###checkIE
+mrmad.com.tw###footer
 news.ltn.com.tw##.softPush_notification
+news.ltn.com.tw###checkIE
 news.tvbs.com.tw##.fixed_bar
 news.tvbs.com.tw##.header_banner
 news.tvbs.com.tw##.web-push
@@ -225,19 +225,19 @@ sspai.com##.clock.article-margin.recommend
 sspai.com##.fixed-guide
 sspai.com##.series-carousel-card
 stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.sm\:p16.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
-star.ettoday.net###ettoday_channel_frame
 star.ettoday.net##.c2
 star.ettoday.net##.msg
+star.ettoday.net###ettoday_channel_frame
 stripe.com
 stripe.network
 tag.kikinote.net
-technews.tw###ADTOP
-technews.tw###inside_AD
 technews.tw##.ad-blocking-advisor-wrapper
 technews.tw##.footer_frame
 technews.tw##.newsLetter_articleContent
 technews.tw##[class^=""inside_AD""]
 technews.tw##[id^=""div-gpt-ad""]
+technews.tw###ADTOP
+technews.tw###inside_AD
 theme.udn.com###show_box
 tinyurl.com##.m-0.text-center.alert-dismissible.alert-info.alert
 tvbs.com.tw##.tagboard-embed
@@ -255,45 +255,45 @@ www.cna.com.tw##.need.privacy-bar
 www.cnbeta.com##.article-share-code
 www.cool3c.com###menu-sidebar
 www.ctbcbank.com##div.col-lg-6.col-md-12.col-sm-12.col-12:nth-of-type(2)
-www.cw.com.tw###author-track-notification
-www.cw.com.tw###newletter-subscribe
 www.cw.com.tw##.cw__advertising
 www.cw.com.tw##.fixed.logInStatus.main.paywallAnnounce
 www.cw.com.tw##.hello__bar
 www.cw.com.tw##.logInStatus.main.paywallAnnounce
 www.cw.com.tw##.text-center.banner
 www.cw.com.tw##.text-center.bottombar
+www.cw.com.tw###author-track-notification
+www.cw.com.tw###newletter-subscribe
 www.cw.com.tw##div.banner:nth-of-type(2)
 www.etas.com##.cm-bg
-www.ettoday.net###info_box
 www.ettoday.net##.et_push_notification
 www.ettoday.net##.fb_iframe_widget.fb-quote
 www.ettoday.net##.overlap
+www.ettoday.net###info_box
 www.fooding.com.tw##.modal-overlay
 www.fooding.com.tw##.text-center.modal-privacy
 www.fox-saying.com###header
 www.fox-saying.com###user-info
 www.icloud.com##.banner-view
-www.inside.com.tw###block-fb_comments
 www.inside.com.tw##.block-relative-articles.block
 www.inside.com.tw##.content > .container > .subscribe_block
 www.inside.com.tw##.job
 www.inside.com.tw##.job_feed_block
 www.inside.com.tw##.js-post_footer.post_footer
-www.ithome.com###side_func
+www.inside.com.tw###block-fb_comments
+www.ithome.com.tw###block-block-45
 www.ithome.com##.AdblockBanner
 www.ithome.com##.shareto
-www.ithome.com.tw###block-block-45
-www.kocpc.com.tw###header
+www.ithome.com###side_func
 www.kocpc.com.tw##.q2w3-fixed-widget-container
 www.kocpc.com.tw##.the-logo-at-top
+www.kocpc.com.tw###header
 www.landiannews.com##.special-message-wrapper
 www.litv.tv##.browser_not_support.alert_module
 www.mobile01.com##.docking_share
 www.mobile01.com##.fixedbottom
+www.pinterest.com##.Hsu.iyn.zI7.wYR.hA-._he.Lgc
 www.pinterest.com###__PWS_ROOT__ > .Hsu.iyn.zI7 > div > .Hsu.iyn.zI7 > div > div
 www.pinterest.com###credential_picker_container
-www.pinterest.com##.Hsu.iyn.zI7.wYR.hA-._he.Lgc
 www.playpcesor.com###spb-information-bar
 www.ptt.cc###navigation-container
 www.reddit.com##.premium-banner-outer
@@ -304,17 +304,17 @@ www.soft4fun.net##.blockMsg
 www.soft4fun.net##.blockOverlay
 www.soft4fun.net##.blockPage
 www.soft4fun.net##.blockUI
+www.techbang.com##.ad-banner
+www.techbang.com##.ad-section
+www.techbang.com##.adsbygoogle
+www.techbang.com##.google-dfp
+www.techbang.com##.newsletter-subscribe
+www.techbang.com##.post-side
 www.techbang.com###dmRelatedPlayer
 www.techbang.com###idle-container
 www.techbang.com###post-additional
 www.techbang.com###stickie_70008519251060
 www.techbang.com###stickies
-www.techbang.com##.ad-banner
-www.techbang.com##.adsbygoogle
-www.techbang.com##.ad-section
-www.techbang.com##.google-dfp
-www.techbang.com##.newsletter-subscribe
-www.techbang.com##.post-side
 www.theverge.com##.adblock-allowlist-messaging__iframe
 www.tt1069.com##.a_pt > center
 www.tt1069.com##.a_t.wp > table > tbody
@@ -322,8 +322,8 @@ www.wikiwand.com##.page_copyright
 www.wikiwand.com##.wikiwand_footer
 www.xtube.com##.expandAside.col10-xxl-3.col-xl-8.col-xs-24
 www.youtube.com##ytd-popup-container.ytd-app.style-scope
-xclient.info###abptip
 xclient.info##.notice_tip
 xclient.info##.show.abptip
+xclient.info###abptip
 xn--fhq444at0i92w.com
 youtube.com##.ytp-pause-overlay
