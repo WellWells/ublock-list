@@ -334,7 +334,6 @@ www.tt1069.com##.a_t.wp > table > tbody
 www.wikiwand.com##.page_copyright
 www.wikiwand.com##.wikiwand_footer
 www.xtube.com##.expandAside.col10-xxl-3.col-xl-8.col-xs-24
-www.youtube.com##ytd-popup-container.ytd-app.style-scope
 xclient.info##.notice_tip
 xclient.info##.show.abptip
 xclient.info###abptip
