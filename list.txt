@@ -331,4 +331,3 @@ xclient.info##.notice_tip
 xclient.info##.show.abptip
 xclient.info###abptip
 xn--fhq444at0i92w.com
-youtube.com##.ytp-pause-overlay
