@@ -1,16 +1,19 @@
-! Title: Essential Blocklist for Taiwan website
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/WellWells/ublock-list
+! Title: Essential Blocklist for Taiwan website
 *://*.facebook.com/*change_read_status
 *://*.facebook.com/*mark_seen.php*
 *://*.facebook.com/*typ.php*
 *://*.messenger.com/*change_read_status*
 *://*.messenger.com/*mark_seen.php*
 *://*.messenger.com/*typ.php*
+*##.ad-banner
+*##.DownloadPopup
 *##.js-consent-banner
 *##.js-dismissable-hero
 *##.policies
 *##.privacyforsite
+*##[class*="CookiesConsent"]
 *##[class^="acca-block"]
 *##[class^="AD_wrapper"]
 *##[class^="ad-single"]
@@ -19,17 +22,17 @@
 *##[id^="policies"]
 *##[id^="privacyforsite"]
 *##[id^="share-box"]
+*###_evidon_banner
+*###cookie-bar
+*###cookiebar
+*###cookieMessage
+*###cookies-consent
+*###gdprBox
 *###share-box
 *##div:has(>.adsbygoogle)
 *##div[class*="ad--"]
 *##div[class*="gdrp"]
 *##div[class*="policy-div"]
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 ||4co.tw^$script
 ||9to5mac.com^$script
 ||ads.techbang.com
@@ -310,9 +313,7 @@ www.soft4fun.net##.blockMsg
 www.soft4fun.net##.blockOverlay
 www.soft4fun.net##.blockPage
 www.soft4fun.net##.blockUI
-www.techbang.com##.ad-banner
 www.techbang.com##.ad-section
-www.techbang.com##.adsbygoogle
 www.techbang.com##.google-dfp
 www.techbang.com##.newsletter-subscribe
 www.techbang.com##.post-side
