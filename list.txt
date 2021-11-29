@@ -8,10 +8,15 @@
 *://*.messenger.com/*mark_seen.php*
 *://*.messenger.com/*typ.php*
 *##.ad-banner
+*##.cookie-bar
+*##.cookie-container
+*##.cookie-notice
 *##.DownloadPopup
 *##.js-consent-banner
 *##.js-dismissable-hero
 *##.policies
+*##.privacyArea
+*##.privacyBox
 *##.privacyforsite
 *##[class*="CookiesConsent"]
 *##[class^="acca-block"]
@@ -25,6 +30,7 @@
 *###_evidon_banner
 *###cookie-bar
 *###cookiebar
+*###cookieLaw
 *###cookieMessage
 *###cookies-consent
 *###gdprBox
@@ -59,6 +65,7 @@
 ||theverge.com^$script
 ||udn.com^$inline-script
 ||unwire.hk^$inline-script
+||wcc723.github.io/images/2021/avatar.png$image
 ||wired.com^$script
 ||www.ctbcbank.com/app/ctbc/ib/inc/img/login/login*.png$image
 ||www.ctbcbank.com/content/dam/ctbc-ib/zh_rb/general/ebhomepage/login*.jpg$image
@@ -103,6 +110,7 @@ decing.tw##blockquote
 downloadly.ir###najva-popup
 dq.yam.com##.ga_trackEvent.noteBar
 dq.yam.com###dqstoreBox
+dq.yam.com###skyNoticeDesk
 dq.yam.com###yd-PlugIn
 ec.ltn.com.tw##.softPush_notification
 ent.ltn.com.tw##.adright_bar
@@ -144,8 +152,11 @@ google.*##div.g:has(div[data-hveid] a[href*="easylife.tw"])
 google.*##div.g:has(div[data-hveid] a[href*="ez3c"])
 google.*##div.g:has(div[data-hveid] a[href*="fbiavip.com"])
 google.*##div.g:has(div[data-hveid] a[href*="goda.com"])
+google.*##div.g:has(div[data-hveid] a[href*="gushiciku.cn"])
 google.*##div.g:has(div[data-hveid] a[href*="hklocalpress.com"])
 google.*##div.g:has(div[data-hveid] a[href*="igotojapan.com"])
+google.*##div.g:has(div[data-hveid] a[href*="igotojapan.com"])
+google.*##div.g:has(div[data-hveid] a[href*="inewsdb.com"])
 google.*##div.g:has(div[data-hveid] a[href*="ireview.tw"])
 google.*##div.g:has(div[data-hveid] a[href*="iso2.cc"])
 google.*##div.g:has(div[data-hveid] a[href*="iso2.cx"])
@@ -160,6 +171,7 @@ google.*##div.g:has(div[data-hveid] a[href*="johntool.com"])
 google.*##div.g:has(div[data-hveid] a[href*="jpworkingholiday.com"])
 google.*##div.g:has(div[data-hveid] a[href*="jpworktravel.com"])
 google.*##div.g:has(div[data-hveid] a[href*="kknews.cc"])
+google.*##div.g:has(div[data-hveid] a[href*="kolvoice.com"])
 google.*##div.g:has(div[data-hveid] a[href*="kutu66.com"])
 google.*##div.g:has(div[data-hveid] a[href*="manage-money.com"])
 google.*##div.g:has(div[data-hveid] a[href*="manongdao.com"])
@@ -180,6 +192,7 @@ google.*##div.g:has(div[data-hveid] a[href*="review.com.tw"])
 google.*##div.g:has(div[data-hveid] a[href*="setn.com"])
 google.*##div.g:has(div[data-hveid] a[href*="softwarebrother.com"])
 google.*##div.g:has(div[data-hveid] a[href*="stackoom.com"])
+google.*##div.g:has(div[data-hveid] a[href*="takecareof.com.tw"])
 google.*##div.g:has(div[data-hveid] a[href*="teepr.com"])
 google.*##div.g:has(div[data-hveid] a[href*="thinbug.com"])
 google.*##div.g:has(div[data-hveid] a[href*="tiwispend.com"])
@@ -196,9 +209,13 @@ google.*##div.g:has(div[data-hveid] a[href*="zeejb.com"])
 google.*##div.g:has(div[data-hveid] a[href*="zhaotwcom.com"])
 google.*##div.g:has(div[data-hveid] a[href*="zhtw.med-mash.ru"])
 google.*##div.g:has(div[data-hveid] a[href*="zjailbreak.com"])
+health.tvbs.com.tw##.margin_b20
+health.tvbs.com.tw##.v5_health_desktop_read_970x250.ad
+health.tvbs.com.tw##p:nth-of-type(24)
 health.udn.com###show_box
 heljohntool.com
 heljohntool.com
+help.salesforce.com###onetrust-consent-sdk
 helpscout.net
 ieeexplore.ieee.org##.cc-color-override-170793312.cc-bottom.cc-theme-block.cc-type-info.cc-banner.cc-window
 ieeexplore.ieee.org###maintenance-notification
@@ -207,23 +224,33 @@ junkcall.org##.in.collapse
 kikinote.net##^script:has-text(society)
 likr.app
 likr.com.tw
+m.eprice.com.tw##.overlay
 m.mobile01.com##.fixedbottom
 mailchimp.com
 materializecss.com##.patreon-ad
 may1215may.pixnet.net###banner
 may1215may.pixnet.net###header
+members.symless.com##.cc-floating
 mrmad.com.tw##.entry-content > div:nth-of-type(4)
 mrmad.com.tw###footer
+mui.com##.ad.description
+music.apple.com##.hydrated.banner-upsell
+newhouse.591.com.tw##.statement-box
+newhouse.591.com.tw##.statement-content
 news.ltn.com.tw##.softPush_notification
 news.ltn.com.tw###checkIE
+news.sina.com.tw##.fixed--bottom.fixed
 news.tvbs.com.tw##.fixed_bar
 news.tvbs.com.tw##.header_banner
 news.tvbs.com.tw##.web-push
 nmac.to##.signoff
 pansci.asia#@#.ad-container
+pansci.asia##.pan-notibar-wrap
 peanutwalker.com###sidebar
 pixnet.net##.pixnet-happix-pilot__launcher-bar-desktop
 pixnet.net##.pixnet-happix-pilot__launcher-bubble
+professorlin.com##.widget_eu_cookie_law_widget
+professorlin.com###main-image
 regex101.com##._2C1Ky._3Brs_
 safood.tw###sidebar
 safood.tw##blockquote
@@ -234,6 +261,7 @@ sspai.com##.clock.article-margin.recommend
 sspai.com##.fixed-guide
 sspai.com##.series-carousel-card
 stackoverflow.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.sm\:p16.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
+standards.ieee.org##.cc-banner
 star.ettoday.net##.c2
 star.ettoday.net##.msg
 star.ettoday.net###ettoday_channel_frame
@@ -243,10 +271,12 @@ tag.kikinote.net
 technews.tw##.ad-blocking-advisor-wrapper
 technews.tw##.footer_frame
 technews.tw##.newsLetter_articleContent
+technews.tw##.topbar-plugin
 technews.tw##[class^=""inside_AD""]
 technews.tw##[id^=""div-gpt-ad""]
 technews.tw###ADTOP
 technews.tw###inside_AD
+technews.tw##hgroup > .logobar
 theme.udn.com###show_box
 tinyurl.com##.m-0.text-center.alert-dismissible.alert-info.alert
 tvbs.com.tw##.tagboard-embed
@@ -255,9 +285,11 @@ tw.news.yahoo.com###YDC-Col1-Stack > div > div:nth-of-type(5)
 unsplash.com##._2vZEJ
 unsplash.com##._38MNN._30ce3
 unsplash.com##._3rh8J
+unwire.hk###cookie
 vuetifyjs.com##.v-snack--top.v-snack--has-background.v-snack--active.v-snack
 web.dev##web-snackbar-container
 winaero.com###post-31772 > .entry-content > div
+wreadit.com###cookie
 www.chinatimes.com##.affiliates
 www.cna.com.tw##.appDownload.paragraph.jsAppDownload
 www.cna.com.tw##.need.privacy-bar
@@ -300,6 +332,7 @@ www.landiannews.com##.special-message-wrapper
 www.litv.tv##.browser_not_support.alert_module
 www.mobile01.com##.docking_share
 www.mobile01.com##.fixedbottom
+www.oppo.com##.cp-cookie-tip
 www.pinterest.com##.Hsu.iyn.zI7.wYR.hA-._he.Lgc
 www.pinterest.com###__PWS_ROOT__ > .Hsu.iyn.zI7 > div > .Hsu.iyn.zI7 > div > div
 www.pinterest.com###credential_picker_container
@@ -325,9 +358,11 @@ www.techbang.com###stickies
 www.theverge.com##.adblock-allowlist-messaging__iframe
 www.tt1069.com##.a_pt > center
 www.tt1069.com##.a_t.wp > table > tbody
+www.vicorpower.com##.show.collapse
 www.wikiwand.com##.page_copyright
 www.wikiwand.com##.wikiwand_footer
 www.xtube.com##.expandAside.col10-xxl-3.col-xl-8.col-xs-24
+www.zhangxinxu.com##cvkw-hi
 xclient.info##.notice_tip
 xclient.info##.show.abptip
 xclient.info###abptip
