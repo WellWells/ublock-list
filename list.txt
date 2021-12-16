@@ -40,6 +40,7 @@
 *##div[class*="ad--"]
 *##div[class*="gdrp"]
 *##div[class*="policy-div"]
+*##div[class="container-component"]>div[class*="sc-"]
 ||4co.tw^$script
 ||9to5mac.com^$script
 ||ads.techbang.com
@@ -316,6 +317,7 @@ www.fooding.com.tw##.modal-overlay
 www.fooding.com.tw##.text-center.modal-privacy
 www.fox-saying.com###header
 www.fox-saying.com###user-info
+www.hbrtaiwan.com##.persistent-banner
 www.icloud.com##.banner-view
 www.inside.com.tw##.block-relative-articles.block
 www.inside.com.tw##.content > .container > .subscribe_block
@@ -368,4 +370,3 @@ www.zhangxinxu.com##cvkw-hi
 xclient.info##.notice_tip
 xclient.info##.show.abptip
 xclient.info###abptip
-xn--fhq444at0i92w.com
