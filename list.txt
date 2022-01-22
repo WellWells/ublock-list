@@ -36,7 +36,6 @@
 *###cookieLaw
 *###cookieMessage
 *###gdprBox
-*##div:has(>.adsbygoogle)
 *##div[class*="ad--"]
 *##div[class*="gdrp"]
 *##div[class*="policy-div"]
