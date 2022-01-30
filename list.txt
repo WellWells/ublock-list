@@ -54,7 +54,6 @@
 ||soft4fun.net^$inline-script
 ||steachs.com^$script
 ||theverge.com^$script
-||udn.com^$inline-script
 ||unwire.hk^$inline-script
 ||wired.com^$script
 ||www.ctbcbank.com/app/ctbc/ib/inc/img/login/login*.png$image
