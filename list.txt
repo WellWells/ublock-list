@@ -16,7 +16,7 @@
 *##.privacyBox
 *##.privacyforsite
 *##[class*="cookie_"]
-*##[class*="cookie-"]
+! *##[class*="cookie-"] ! Will crash intel website and others.....
 *##[class*="CookiesConsent"]
 *##[class*="gdpr-"]
 *##[class*="policies"]
