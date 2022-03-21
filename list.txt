@@ -1,6 +1,3 @@
-! Expires: 1 day (update frequency)
-! Homepage: https://github.com/WellWells/ublock-list
-! Title: Essential Blocklist for Taiwan website
 *://*.facebook.com/*change_read_status
 *://*.facebook.com/*mark_seen.php*
 *://*.facebook.com/*typ.php*
@@ -10,13 +7,13 @@
 *##.ad-banner
 *##.DownloadPopup
 *##.float-message__wrap
+*##.gs-notice-cookie
 *##.js-consent-banner
 *##.js-dismissable-hero
 *##.privacyArea
 *##.privacyBox
 *##.privacyforsite
 *##[class*="cookie_"]
-! *##[class*="cookie-"] ! Will crash intel website and others.....
 *##[class*="CookiesConsent"]
 *##[class*="gdpr-"]
 *##[class*="policies"]
@@ -70,7 +67,9 @@
 ||www.ctbcbank.com/app/ctbc/ib/inc/img/login/login*.png$image
 ||www.ctbcbank.com/content/dam/ctbc-ib/zh_rb/general/ebhomepage/login*.jpg$image
 ||www.ewdna.com^$script
+||www.tainandaypass.tw/images/main_banner01.jpg$image
 ||www.tt1069.com/bbs/static/image/common/ad.gif$image
+||www.ttl.com.tw/images/Warning_L.png$image
 ||www.twreporter.org^$inline-script
 ||www5.technews.tw/www/delivery/afr.php
 ||www5.technews.tw/www/delivery/afr.php$subdocument
@@ -86,6 +85,7 @@ app.getpocket.com##.css-1uezb08
 app.getpocket.com##.css-3ceer
 appleinsider.com##.primis-ad-wrap
 auth.kikinote.net
+bbs.pigoo.com###B7syRjHX_sBK
 blog.gslin.org##.header-image
 blog.xuite.net###privacyDeclare
 buzzorange.com##.adNoSex
@@ -94,10 +94,12 @@ buzzorange.com##.fancybox-wrap
 buzzorange.com##.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
 buzzorange.com##.ui-front.ui-widget-overlay
 buzzorange.com##div.ad_small
+cache.ltn.com.tw/js/fb_mask.js
 cydia-app.com
 daily.zhihu.com##.download
 daily.zhihu.com##.global-header
 daily.zhihu.com##.qr
+dailyview.tw###PrivacyAlert
 decing.tw##.achang_Content_wrap > h3
 decing.tw##.author_avatar.widget
 decing.tw##.fbbox
@@ -116,8 +118,10 @@ ec.ltn.com.tw##.softPush_notification
 ent.ltn.com.tw##.adright_bar
 ent.ltn.com.tw##.boxTitle.app
 ent.ltn.com.tw##.boxTitle.entlogo_bar
+ent.ltn.com.tw##.softPush_notification
 ent.ltn.com.tw###one
 feedly.com##.dot-pulse.dot.top-right
+feedly.com##.fx.tutorial-callout
 feedly.com##.modal-overlay.is-inline.is-fading
 feedly.com##.small.button--primary.pro
 feedly.com##.small.primary.pro
@@ -217,6 +221,8 @@ heljohntool.com
 heljohntool.com
 help.salesforce.com###onetrust-consent-sdk
 helpscout.net
+https://news.cnyes.com/dist/main-*ad1.js
+https://static.chinatimes.com/scripts/2020/page-idle-prompt2020.min.js
 ieeexplore.ieee.org##.cc-color-override-170793312.cc-bottom.cc-theme-block.cc-type-info.cc-banner.cc-window
 ieeexplore.ieee.org###maintenance-notification
 junkcall.org##.hp_search
@@ -237,6 +243,7 @@ mui.com##.ad.description
 music.apple.com##.hydrated.banner-upsell
 newhouse.591.com.tw##.statement-box
 newhouse.591.com.tw##.statement-content
+news.cnyes.com##._1FOy
 news.ltn.com.tw##.softPush_notification
 news.ltn.com.tw###checkIE
 news.sina.com.tw##.fixed--bottom.fixed
@@ -250,6 +257,7 @@ pansci.asia##.pan-notibar-wrap
 peanutwalker.com###sidebar
 pixnet.net##.pixnet-happix-pilot__launcher-bar-desktop
 pixnet.net##.pixnet-happix-pilot__launcher-bubble
+playing.ltn.com.tw##.softPush_notification
 professorlin.com##.widget_eu_cookie_law_widget
 professorlin.com###main-image
 regex101.com##._2C1Ky._3Brs_
@@ -266,6 +274,7 @@ standards.ieee.org##.cc-banner
 star.ettoday.net##.c2
 star.ettoday.net##.msg
 star.ettoday.net###ettoday_channel_frame
+store.vuetifyjs.com##.v-footer--fixed.theme--dark.v-sheet.justify-center.align-center.d-flex.ma-0.pa-0.v-footer
 stripe.com
 stripe.network
 tag.kikinote.net
@@ -283,6 +292,8 @@ tinyurl.com##.m-0.text-center.alert-dismissible.alert-info.alert
 tvbs.com.tw##.tagboard-embed
 tw.appledaily.com###div-GDPR-message
 tw.news.yahoo.com###YDC-Col1-Stack > div > div:nth-of-type(5)
+udn.com##.article-content__plugins
+udn.com##.social-wrapper
 unsplash.com##._2vZEJ
 unsplash.com##._38MNN._30ce3
 unsplash.com##._3rh8J
@@ -291,7 +302,10 @@ vuetifyjs.com##.v-snack--top.v-snack--has-background.v-snack--active.v-snack
 web.dev##web-snackbar-container
 winaero.com###post-31772 > .entry-content > div
 wreadit.com###cookie
+www.bloomberg.com###fortress-preblocked-container-root
 www.chinatimes.com##.affiliates
+www.chinatimes.com##.subscribe-news-letter
+www.chinatimes.com##div.column-left > .subscribe-news-letter
 www.cna.com.tw##.appDownload.paragraph.jsAppDownload
 www.cna.com.tw##.need.privacy-bar
 www.cnbeta.com##.article-share-code
@@ -306,10 +320,19 @@ www.cw.com.tw##.text-center.bottombar
 www.cw.com.tw###author-track-notification
 www.cw.com.tw###newletter-subscribe
 www.cw.com.tw##div.banner:nth-of-type(2)
+www.edntaiwan.com##.clearfix.fixed-top.top-navigation
+www.edntaiwan.com##.navigation-menu
+www.eettaiwan.com##.bg-light.navbar-light.fixed-top.navbar-expand-lg.navbar
+www.eettaiwan.com##.clearfix.fixed-top.top-navigation
 www.etas.com##.cm-bg
+www.ettoday.net##.et_ad_group_1
 www.ettoday.net##.et_push_notification
+www.ettoday.net##.et_social_1
+www.ettoday.net##.et_social_2
+www.ettoday.net##.et_social_3
 www.ettoday.net##.fb_iframe_widget.fb-quote
 www.ettoday.net##.overlap
+www.ettoday.net###et_sticky_pc
 www.ettoday.net###info_box
 www.fooding.com.tw##.modal-overlay
 www.fooding.com.tw##.text-center.modal-privacy
@@ -332,8 +355,15 @@ www.kocpc.com.tw##.the-logo-at-top
 www.kocpc.com.tw###header
 www.landiannews.com##.special-message-wrapper
 www.litv.tv##.browser_not_support.alert_module
+www.marieclaire.com.tw##.privacyDesc
+www.mirrormedia.mg##.the-gdpr
+www.mobile01.com/ajax/forum/idlebox.php
+www.mobile01.com/topicdetail.php
 www.mobile01.com##.docking_share
 www.mobile01.com##.fixedbottom
+www.narlabs.org.tw##.lity-inline.lity-opened.lity
+www.newsmarket.com.tw##.clearfix.block-da-header_top.block-da.block-da-1
+www.newsmarket.com.tw##.clearfix.block-da-post_end.block-da.block-da-1
 www.oppo.com##.cp-cookie-tip
 www.pinterest.com##.Hsu.iyn.zI7.wYR.hA-._he.Lgc
 www.pinterest.com###__PWS_ROOT__ > .Hsu.iyn.zI7 > div > .Hsu.iyn.zI7 > div > div
@@ -341,6 +371,7 @@ www.pinterest.com###credential_picker_container
 www.playpcesor.com###spb-information-bar
 www.ptt.cc###navigation-container
 www.reddit.com##.premium-banner-outer
+www.reddit.com###welcome-tooltip-id
 www.saydigi.com###text-43 > .relative.left.sidebar-widget-content
 www.setn.com##.fadeInDown.animated.privacy-area
 www.setn.com##.hidden-print.rightFloat
@@ -360,9 +391,13 @@ www.techbang.com###stickies
 www.theverge.com##.adblock-allowlist-messaging__iframe
 www.tt1069.com##.a_pt > center
 www.tt1069.com##.a_t.wp > table > tbody
+www.ttl.com.tw##.slogan
 www.vicorpower.com##.show.collapse
+www.washingtonpost.com##.overflow-hidden.border-box.w-100
+www.wikihow.com###article_courses_banner
 www.wikiwand.com##.page_copyright
 www.wikiwand.com##.wikiwand_footer
+www.winho.com.tw##.footer_privacy-container
 www.xtube.com##.expandAside.col10-xxl-3.col-xl-8.col-xs-24
 www.zhangxinxu.com##cvkw-hi
 xclient.info##.notice_tip
