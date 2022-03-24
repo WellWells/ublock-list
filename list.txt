@@ -5,6 +5,7 @@
 *://*.messenger.com/*mark_seen.php*
 *://*.messenger.com/*typ.php*
 *##.ad-banner
+*##.divbottom
 *##.DownloadPopup
 *##.float-message__wrap
 *##.gs-notice-cookie
@@ -13,6 +14,7 @@
 *##.privacyArea
 *##.privacyBox
 *##.privacyforsite
+*##.softPush_notification
 *##[class*="cookie_"]
 *##[class*="CookiesConsent"]
 *##[class*="gdpr-"]
@@ -94,7 +96,9 @@ buzzorange.com##.fancybox-wrap
 buzzorange.com##.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
 buzzorange.com##.ui-front.ui-widget-overlay
 buzzorange.com##div.ad_small
+cache.ltn.com.tw/js/cache_ads_*
 cache.ltn.com.tw/js/fb_mask.js
+ch-9.net##.active.fadeInDown.wow.notes
 cydia-app.com
 daily.zhihu.com##.download
 daily.zhihu.com##.global-header
@@ -109,6 +113,7 @@ decing.tw###media_image-2
 decing.tw###media_image-3
 decing.tw###sidebar
 decing.tw##blockquote
+dj9.com.tw##.container.legal
 downloadly.ir###najva-popup
 dq.yam.com##.ga_trackEvent.noteBar
 dq.yam.com###dqstoreBox
@@ -120,6 +125,8 @@ ent.ltn.com.tw##.boxTitle.app
 ent.ltn.com.tw##.boxTitle.entlogo_bar
 ent.ltn.com.tw##.softPush_notification
 ent.ltn.com.tw###one
+event.ttl.com.tw##.slogan
+every.to###subscribe-popup
 feedly.com##.dot-pulse.dot.top-right
 feedly.com##.fx.tutorial-callout
 feedly.com##.modal-overlay.is-inline.is-fading
@@ -225,6 +232,8 @@ https://news.cnyes.com/dist/main-*ad1.js
 https://static.chinatimes.com/scripts/2020/page-idle-prompt2020.min.js
 ieeexplore.ieee.org##.cc-color-override-170793312.cc-bottom.cc-theme-block.cc-type-info.cc-banner.cc-window
 ieeexplore.ieee.org###maintenance-notification
+js/fb_mask.js
+juejin.cn##.recommend-box
 junkcall.org##.hp_search
 junkcall.org##.in.collapse
 kikinote.net##^script:has-text(society)
@@ -238,12 +247,15 @@ may1215may.pixnet.net###banner
 may1215may.pixnet.net###header
 members.symless.com##.cc-floating
 mrmad.com.tw##.entry-content > div:nth-of-type(4)
+mrmad.com.tw##.jeg_share_float_container
+mrmad.com.tw##.jeg_sharelist
 mrmad.com.tw###footer
 mui.com##.ad.description
 music.apple.com##.hydrated.banner-upsell
 newhouse.591.com.tw##.statement-box
 newhouse.591.com.tw##.statement-content
 news.cnyes.com##._1FOy
+news.ltn.com.tw##.appE1121
 news.ltn.com.tw##.softPush_notification
 news.ltn.com.tw###checkIE
 news.sina.com.tw##.fixed--bottom.fixed
@@ -292,6 +304,7 @@ tinyurl.com##.m-0.text-center.alert-dismissible.alert-info.alert
 tvbs.com.tw##.tagboard-embed
 tw.appledaily.com###div-GDPR-message
 tw.news.yahoo.com###YDC-Col1-Stack > div > div:nth-of-type(5)
+tw.thebalvenie.com##.twStaticFooter
 udn.com##.article-content__plugins
 udn.com##.social-wrapper
 unsplash.com##._2vZEJ
@@ -302,7 +315,11 @@ vuetifyjs.com##.v-snack--top.v-snack--has-background.v-snack--active.v-snack
 web.dev##web-snackbar-container
 winaero.com###post-31772 > .entry-content > div
 wreadit.com###cookie
+www.609.com.tw##.b-box.outerWrap > div > .clearfix
 www.bloomberg.com###fortress-preblocked-container-root
+www.bottleprice.com.tw##.warning
+www.businessinsider.com##.headline-regular.inline-newsletter-signup-in-post.inline-newsletter-signup
+www.chateaux.com.tw##.footerWarning
 www.chinatimes.com##.affiliates
 www.chinatimes.com##.subscribe-news-letter
 www.chinatimes.com##div.column-left > .subscribe-news-letter
@@ -320,6 +337,7 @@ www.cw.com.tw##.text-center.bottombar
 www.cw.com.tw###author-track-notification
 www.cw.com.tw###newletter-subscribe
 www.cw.com.tw##div.banner:nth-of-type(2)
+www.drinks.com.tw##footer > .align-center.inline-block
 www.edntaiwan.com##.clearfix.fixed-top.top-navigation
 www.edntaiwan.com##.navigation-menu
 www.eettaiwan.com##.bg-light.navbar-light.fixed-top.navbar-expand-lg.navbar
@@ -333,11 +351,15 @@ www.ettoday.net##.et_social_3
 www.ettoday.net##.fb_iframe_widget.fb-quote
 www.ettoday.net##.overlap
 www.ettoday.net###et_sticky_pc
+www.ettoday.net###et_sticky_pc
 www.ettoday.net###info_box
 www.fooding.com.tw##.modal-overlay
 www.fooding.com.tw##.text-center.modal-privacy
+www.fox-saying.com##.pixnet-happix-pilot__launcher-bar-desktop
+www.fox-saying.com##.pixnet-happix-pilot__launcher-bubble
 www.fox-saying.com###header
 www.fox-saying.com###user-info
+www.gogobar.com.tw##.warning
 www.hbrtaiwan.com##.persistent-banner
 www.icloud.com##.banner-view
 www.inside.com.tw##.block-relative-articles.block
@@ -350,21 +372,28 @@ www.ithome.com.tw###block-block-45
 www.ithome.com##.AdblockBanner
 www.ithome.com##.shareto
 www.ithome.com###side_func
+www.kavalanwhisky.com##.scroll-view.warning-msg
+www.kkl.com.tw###warning
+www.kocpc.com.tw##.normal.jeg_container.jeg_midbar
 www.kocpc.com.tw##.q2w3-fixed-widget-container
 www.kocpc.com.tw##.the-logo-at-top
 www.kocpc.com.tw###header
 www.landiannews.com##.special-message-wrapper
 www.litv.tv##.browser_not_support.alert_module
+www.maltssociety.com.tw##.ftbtm
 www.marieclaire.com.tw##.privacyDesc
+www.medoc.com.tw##.warning
 www.mirrormedia.mg##.the-gdpr
 www.mobile01.com/ajax/forum/idlebox.php
 www.mobile01.com/topicdetail.php
 www.mobile01.com##.docking_share
 www.mobile01.com##.fixedbottom
+www.my9.com.tw###alcohol-warning-footer
 www.narlabs.org.tw##.lity-inline.lity-opened.lity
 www.newsmarket.com.tw##.clearfix.block-da-header_top.block-da.block-da-1
 www.newsmarket.com.tw##.clearfix.block-da-post_end.block-da.block-da-1
 www.oppo.com##.cp-cookie-tip
+www.p9.com.tw###footer
 www.pinterest.com##.Hsu.iyn.zI7.wYR.hA-._he.Lgc
 www.pinterest.com###__PWS_ROOT__ > .Hsu.iyn.zI7 > div > .Hsu.iyn.zI7 > div > div
 www.pinterest.com###credential_picker_container
@@ -375,6 +404,7 @@ www.reddit.com###welcome-tooltip-id
 www.saydigi.com###text-43 > .relative.left.sidebar-widget-content
 www.setn.com##.fadeInDown.animated.privacy-area
 www.setn.com##.hidden-print.rightFloat
+www.skybar.com.tw###footer
 www.soft4fun.net##.blockMsg
 www.soft4fun.net##.blockOverlay
 www.soft4fun.net##.blockPage
@@ -392,6 +422,8 @@ www.theverge.com##.adblock-allowlist-messaging__iframe
 www.tt1069.com##.a_pt > center
 www.tt1069.com##.a_t.wp > table > tbody
 www.ttl.com.tw##.slogan
+www.twbeer.com.tw##.footer
+www.twbeer.com.tw##footer
 www.vicorpower.com##.show.collapse
 www.washingtonpost.com##.overflow-hidden.border-box.w-100
 www.wikihow.com###article_courses_banner
