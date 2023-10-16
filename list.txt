@@ -84,7 +84,6 @@ feedly.com##[class*=Layout]:has-text(/少康|快刪|唐鳳|達人|Joeman|竟然|
 ||www.ewdna.com^$script
 ||www.jyes.com.tw/themes/zh-tw/assets/images/index-news-bg.jpg$image
 ||www.tainan.gov.tw/Images/bg.jpg
-||www.tainan.gov.tw/Images/bg.jpg
 ||www.tainandaypass.tw/images/main_banner01.jpg$image
 ||www.tt1069.com/bbs/static/image/common/ad.gif$image
 ||www.ttl.com.tw/images/Warning_L.png$image
@@ -135,6 +134,7 @@ buzzorange.com##div.ad_small
 cache.ltn.com.tw/js/cache_ads_*
 cache.ltn.com.tw/js/fb_mask.js
 ch-9.net##.active.fadeInDown.wow.notes
+ch-9.net##.warning
 chat.openai.com##a:has(span:has-text(/Upgrade/))
 chat.openai.com##div > span:has-text(/Free Research/)
 chinese.engadget.com##.browser-warning
@@ -215,7 +215,6 @@ gofans.cn##.block-tip
 gofans.cn##.footerbar
 health.tvbs.com.tw##.margin_b20
 health.tvbs.com.tw##.v5_health_desktop_read_970x250.ad
-health.tvbs.com.tw##p:nth-of-type(24)
 health.udn.com###show_box
 heljohntool.com
 help.salesforce.com###onetrust-consent-sdk
@@ -225,6 +224,9 @@ https://static.chinatimes.com/scripts/2020/page-idle-prompt2020.min.js
 https://trello-backgrounds.s3.amazonaws.com/4e8eb47da16fe58f9dbdf7d0/2560x1600/0f299a7485408e6ad3daac75476be678/background.png
 ieeexplore.ieee.org##.cc-color-override-170793312.cc-bottom.cc-theme-block.cc-type-info.cc-banner.cc-window
 ieeexplore.ieee.org###maintenance-notification
+israynotarray.com##.footer-inner
+israynotarray.com##.post-footer
+israynotarray.com##.post-meta
 ithelp.ithome.com.tw##.social-share
 js/fb_mask.js
 juejin.cn##.dark-mode-notification
@@ -248,6 +250,8 @@ may1215may.pixnet.net###header
 may1215may.pixnet.net###spotlight
 members.symless.com##.cc-floating
 memes.tw##.nice-box
+money.udn.com##.notice-mask
+money.udn.com##.noticeBox
 mrmad.com.tw##.entry-content > div:nth-of-type(4)
 mrmad.com.tw##.jeg_share_float_container
 mrmad.com.tw##.jeg_sharelist
@@ -357,11 +361,11 @@ udn.com##.footer-social
 udn.com##.social-wrapper
 udn.com##.udn-idle
 udn.com##.udn-overlay
+udn.com##.wrapper-aside
 unsplash.com##._2vZEJ
 unsplash.com##._38MNN._30ce3
 unsplash.com##._3rh8J
 unwire.hk###cookie
-upsangel.com##[href="https://upsangel.com/check/surfsharkvpn"]
 upsangel.com##[href="https://upsangel.com/check/surfsharkvpn"]
 vuetifyjs.com##.v-snack--top.v-snack--has-background.v-snack--active.v-snack
 web.dev##web-snackbar-container
@@ -389,6 +393,7 @@ www.boehringer-ingelheim.tw##.popup-content
 www.bottleprice.com.tw##.warning
 www.businessinsider.com##.headline-regular.inline-newsletter-signup-in-post.inline-newsletter-signup
 www.businesstoday.com.tw##.next__article__aside-block.article__aside-block
+www.buyandship.com.tw##.bs-cookie-consent
 www.cardu.com.tw##.move.col0.index-content-right
 www.chateaux.com.tw##.footerWarning
 www.chinatimes.com##.affiliates
@@ -409,6 +414,8 @@ www.cool3c.com###body > div.row:has-text(/pcloud/i)
 www.cool3c.com###menu-sidebar
 www.costco.com.tw##.warning
 www.ctbcbank.com##div.col-lg-6.col-md-12.col-sm-12.col-12:nth-of-type(2)
+www.ctee.com.tw##.ad-box__idle
+www.ctee.com.tw##.cookie-concent
 www.ctwant.com##.m-GDPR
 www.ctwant.com##.m-notification
 www.ctwant.com##.m-sharebar
@@ -531,6 +538,7 @@ www.pinterest.com###credential_picker_container
 www.playpcesor.com###HTML3
 www.playpcesor.com###spb-information-bar
 www.ptt.cc###main-container:has-text('三立新聞')
+www.ptt.cc###main-container:has-text("大耳朵")
 www.ptt.cc###navigation-container
 www.reddit.com##._288IzKhWMb7Dw403RofBU8._3OMmYPy8XZymvnsxBSK3c0._1sDiFFHKyPJghjPpVTW7vB
 www.reddit.com##.premium-banner-outer
@@ -555,6 +563,7 @@ www.storm.mg###info_donation
 www.storm.mg###stock_bar
 www.tainanlohas.cc##[href="https://www.instagram.com/tainanlohas/"]
 www.tainanlohas.cc##[href="https://www.tainanlohas.cc/p/cooperation-proposal.html"]
+www.taiwanfarm.com.tw###modal-root
 www.techbang.com##.ad-section
 www.techbang.com##.content-top
 www.techbang.com##.google-dfp
@@ -586,8 +595,6 @@ www.wait9time.com###warning
 www.wanshang.com.tw###alcohol-warning
 www.washingtonpost.com##.overflow-hidden.border-box.w-100
 www.wikihow.com###article_courses_banner
-www.wikiwand.com##.page_copyright
-www.wikiwand.com##.wikiwand_footer
 www.williamlong.info##div.clearfix.sidebar-box:nth-of-type(1)
 www.wine0222.com##.footer_tag
 www.wine0222.com##.header-sheet
