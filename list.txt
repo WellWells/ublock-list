@@ -1,10 +1,13 @@
 ! Title: Essential Blocklist for Taiwan Website
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/WellWells/ublock-list
-tw.news.yahoo.com##.Cf:has-text(/網曝|三立|東森新聞|唐鳳|蕭達多|不忍了|傻眼|不忍了|哀號|達人|專家|果粉|竟然|驚見|廖梓翔|中招|蘋果爹/)
-tw.news.yahoo.com###module-article:has-text(/網曝|三立|東森新聞|唐鳳|蕭達多|不忍了|傻眼|不忍了|哀號|達人|專家|果粉|竟然|驚見|廖梓翔|中招|蘋果爹/)
-tw.news.yahoo.com##.StretchedBox:has-text(/網曝|三立|東森新聞|唐鳳|蕭達多|不忍了|傻眼|不忍了|哀號|達人|專家|果粉|竟然|驚見|廖梓翔|中招|蘋果爹/)
 feedly.com##[class*=Layout]:has-text(/少康|快刪|唐鳳|達人|Joeman|竟然|驚見|網曝|蘋果爹/)
+tw.news.yahoo.com##.Cf:has-text(/網曝|三立|東森新聞|唐鳳|蕭達多|不忍了|傻眼|不忍了|哀號|達人|專家|果粉|竟然|驚見|廖梓翔|中招|蘋果爹/)
+tw.news.yahoo.com##.StretchedBox:has-text(/網曝|三立|東森新聞|唐鳳|蕭達多|不忍了|傻眼|不忍了|哀號|達人|專家|果粉|竟然|驚見|廖梓翔|中招|蘋果爹/)
+tw.news.yahoo.com###module-article:has-text(/網曝|三立|東森新聞|唐鳳|蕭達多|不忍了|傻眼|不忍了|哀號|達人|專家|果粉|竟然|驚見|廖梓翔|中招|蘋果爹/)
+www.google.com##div.MjjYud:has-text(/Joeman|廖阿輝|Tim哥|蘋果爹|大耳朵|陳寗/)
+www.ptt.cc###main-container:has-text(/三立新聞|大耳朵/)
+www.youtube.com##ytd-video-renderer:has-text(/陳寗|Tim哥|蘋果爹|人夫阿康|電獺少女|倫敦印象|志祺七七|HOOK|劉沛|聖結石|賴瑞|Joeman|愛莉莎莎|玩物誌|Toyz|邦尼|阿哲/)
 *://*.facebook.com/*change_read_status
 *://*.facebook.com/*mark_seen.php*
 *://*.facebook.com/*typ.php*
@@ -465,7 +468,6 @@ www.ftvnews.com.tw##.share-btn
 www.ftvnews.com.tw##.side-menu-container
 www.gogobar.com.tw##.warning
 www.google.com##.show.chr-cookie-banner
-www.google.com##div.MjjYud:has-text(/Joeman|廖阿輝|Tim哥|蘋果爹|大耳朵|陳寗/)
 www.gvm.com.tw##.floating-share
 www.hbrtaiwan.com##.persistent-banner
 www.icecellar-icewine.com###SITE_FOOTER
@@ -537,8 +539,7 @@ www.pinterest.com###__PWS_ROOT__ > .Hsu.iyn.zI7 > div > .Hsu.iyn.zI7 > div > div
 www.pinterest.com###credential_picker_container
 www.playpcesor.com###HTML3
 www.playpcesor.com###spb-information-bar
-www.ptt.cc###main-container:has-text('三立新聞')
-www.ptt.cc###main-container:has-text("大耳朵")
+
 www.ptt.cc###navigation-container
 www.reddit.com##._288IzKhWMb7Dw403RofBU8._3OMmYPy8XZymvnsxBSK3c0._1sDiFFHKyPJghjPpVTW7vB
 www.reddit.com##.premium-banner-outer
