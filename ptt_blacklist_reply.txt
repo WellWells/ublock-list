@@ -2,5 +2,5 @@
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/WellWells/ublock-list
 disp.cc,ptt.cc##[class^="push"]:has-text(/817|1450|4%|40%|7pupu|D卡文|who care|八一七|小粉紅|五毛|五樓|井蛙|天龍人|支那|北部人|可憐|台女|打手槍|母豬|民智未開|甲甲|白癡|同路人|地溝油|死|老母|自立自強|自慰|低卡|低能卡|低端|屁精|沒料|肛|垃圾|物以類聚|狗官|肥宅|南部人|柯布林|洨|玻璃|苗栗國|党|冥進洞|哥布林|畜|臭|草包|側翼|娼|專家|崩潰|習維尼|貧民窟|喜?兒|智障|渣|無能|鄉下人|塔?班|塔白|塔綠|幹|滅亡|義勇軍|嘔|禍源|綠共|綠蛆|網紅|網軍|噁甲|噁爛|廢|撲殺|獨派|獨裁|賴皮狗|懂？|藍吱|雞掰|黨/)
-www.ptt.cc##div.richcontent
-disp.cc##div > .img
+ptt.cc##div.richcontent:matches-path('/bbs/Gossiping')
+disp.cc##div > .img:matches-path('b/Gossiping')
