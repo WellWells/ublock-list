@@ -1,4 +1,4 @@
-! Title: anti_scam_shopper
+! Title: Essential Anti Shop Scam
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/WellWells/ublock-list
 *##body:matches-path('product/home/productOrder')
