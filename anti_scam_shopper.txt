@@ -3,3 +3,4 @@
 ! Homepage: https://github.com/WellWells/ublock-list
 *##body:matches-path('product/home/productOrder')
 *##body:has([class$="-detail-content"])
+*##body:has([class^="van-collapse"])
