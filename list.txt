@@ -2,12 +2,14 @@
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/WellWells/ublock-list
 feedly.com##[class*=Layout]:has-text(/少康|快刪|唐鳳|達人|Joeman|竟然|驚見|網曝|蘋果爹/)
-tw.news.yahoo.com##.Cf:has-text(/網曝|三立|東森新聞|唐鳳|蕭達多|不忍了|傻眼|不忍了|哀號|達人|專家|果粉|竟然|驚見|廖梓翔|中招|蘋果爹/)
-tw.news.yahoo.com##.StretchedBox:has-text(/網曝|三立|東森新聞|唐鳳|蕭達多|不忍了|傻眼|不忍了|哀號|達人|專家|果粉|竟然|驚見|廖梓翔|中招|蘋果爹/)
-tw.news.yahoo.com###module-article:has-text(/網曝|三立|東森新聞|唐鳳|蕭達多|不忍了|傻眼|不忍了|哀號|達人|專家|果粉|竟然|驚見|廖梓翔|中招|蘋果爹/)
+tw.news.yahoo.com##.simple-list-item,.StreamMegaItem,.caas-container,.rapidnofollow,.simple-list-item-v2 :has-text(/驚呆|震驚|丁特|轟爆|網曝|三立|東森新聞|唐鳳|蕭達多|不忍了|傻眼|不忍了|哀號|達人|專家|果粉|竟然|驚見|廖梓翔|中招|蘋果爹|太強|早安健康/)
 www.google.com##div.MjjYud:has-text(/Joeman|廖阿輝|Tim哥|蘋果爹|大耳朵|陳寗/)
 www.ptt.cc###main-container:has-text(/三立新聞|大耳朵/)
 www.youtube.com##ytd-video-renderer:has-text(/陳寗|Tim哥|蘋果爹|人夫阿康|電獺少女|倫敦印象|志祺七七|HOOK|劉沛|聖結石|賴瑞|Joeman|愛莉莎莎|玩物誌|Toyz|邦尼|阿哲/)
+aniseblog.tw,fullfenblog.tw,decing.tw,4co.tw,boylondon.tw,bobowin.blog,peanutwalker.com##.bottom-side-menu,.right-side-menu,.widget-area.sidebar,.site-branding,.has-logo,.code-block,.fbbox,.ad-single-top
+aniseblog.tw,fullfenblog.tw,decing.tw,4co.tw,boylondon.tw,bobowin.blog,peanutwalker.com###blogimoveSLIDE,#featured-content,#blogimoveSLIDE,#achang_fb_slide,#achang-ft-btn,#share-box
+aniseblog.tw##p:has-text(/加入愛吃鬼/)
+! 上方特殊管理
 *://*.facebook.com/*change_read_status
 *://*.facebook.com/*mark_seen.php*
 *://*.facebook.com/*typ.php*
@@ -100,22 +102,14 @@ www.youtube.com##ytd-video-renderer:has-text(/陳寗|Tim哥|蘋果爹|人夫阿�
 3c.ltn.com.tw##.boxText.boxTitle.borderline.whitecon > .function > div
 3c.ltn.com.tw##.boxText.boxTitle.wrapper.brandSearch
 3c.ltn.com.tw##.softPush_notification
-4co.tw##.acca-block.ac-top
-4co.tw##.ad-single-top
+3cjohnhardware.wordpress.com##.header-image
+3cjohnhardware.wordpress.com##.open.jetpack-subscribe-modal
 ad.cardu.com.tw
-aniseblog.tw##.bottom-side-menu
-aniseblog.tw##.right-side-menu
-aniseblog.tw##.widget-area.sidebar
-aniseblog.tw###blogimoveSLIDE
-aniseblog.tw##p:has-text(/加入愛吃鬼/)
 api.eatmary.net
 api.kikinote.net
 app.getpocket.com##.css-1uezb08
 app.getpocket.com##.css-3ceer
-applefans.today##.logo-main-menu
-applefans.today##.secondary-wrap
-applefans.today##.share-it
-applefans.today##.slide-in-box
+applefans.today##.logo-main-menu,.secondary-wrap,.share-it,.slide-in-box
 appleinsider.com##.primis-ad-wrap
 askubuntu.com##.ps-relative.js-freemium-cta
 auth.kikinote.net
@@ -126,8 +120,6 @@ blog.icook.tw##[class*="informationSocialMedia"]
 blog.icook.tw##[class*="style_googleNews"]
 blog.trendmicro.com.tw##[class*=sharing]
 blog.xuite.net###privacyDeclare
-bobowin.blog###sidebar
-boylondon.tw##.fbbox
 buzzorange.com##.adNoSex
 buzzorange.com##.fancybox-overlay
 buzzorange.com##.fancybox-wrap
@@ -155,21 +147,6 @@ daily.zhihu.com##.download
 daily.zhihu.com##.global-header
 daily.zhihu.com##.qr
 dailyview.tw###PrivacyAlert
-decing.tw##.achang_Content_wrap > h3
-decing.tw##.author_avatar.widget
-decing.tw##.code-block
-decing.tw##.code-block-1.code-block
-decing.tw##.fbbox
-decing.tw##.footer-logo
-decing.tw###achang_fb_slide
-decing.tw###achang-ft-btn
-decing.tw###achang-sliders
-decing.tw###header
-decing.tw###media_image-2
-decing.tw###media_image-3
-decing.tw###share-box
-decing.tw###sidebar
-decing.tw##blockquote
 developer.chrome.com##.cookie-banner
 dj9.com.tw##.container.legal
 downloadly.ir###najva-popup
@@ -203,14 +180,6 @@ finance.technews.tw##.inside-telegram
 fish.kikinote.net
 food.ltn.com.tw##.h1Bottom > .boxTitle.function
 free.com.tw##.code-block-1.code-block
-fullfenblog.tw##.achang_Content_wrap > p:nth-of-type(6)
-fullfenblog.tw##.entry-content > div[style="min-width: 300px; min-height:300px;"]
-fullfenblog.tw##.right-side-menu
-fullfenblog.tw##.site-branding
-fullfenblog.tw##.widget-area.sidebar
-fullfenblog.tw###blogimoveSLIDE
-fullfenblog.tw###featured-content
-fullfenblog.tw##blockquote
 futurecity.cw.com.tw##.advertisement
 futurecity.cw.com.tw##.member--hint
 gitbook.tw##.top-promotion
@@ -237,6 +206,7 @@ juejin.cn##.dynamic-data-ready.article-suspended-panel
 juejin.cn##.recommend-box
 junkcall.org##.hp_search
 junkcall.org##.in.collapse
+kagi.com##header,footer
 kellylife.tw##.footer-area
 kheresy.wordpress.com##.site-footer
 kikinote.net##^script:has-text(society)
@@ -255,10 +225,9 @@ members.symless.com##.cc-floating
 memes.tw##.nice-box
 money.udn.com##.notice-mask
 money.udn.com##.noticeBox
+mp.weixin.qq.com##.qr_code_pc
 mrmad.com.tw##.entry-content > div:nth-of-type(4)
-mrmad.com.tw##.jeg_share_float_container
-mrmad.com.tw##.jeg_sharelist
-mrmad.com.tw##.ns-buttons-wrapper
+mrmad.com.tw##.jeg_share_float_container,.jeg_sharelist,.ns-buttons-wrapper
 mrmad.com.tw###footer
 mui.com##.ad.description
 mui.com##.css-2yr64z
@@ -282,7 +251,6 @@ news.tvbs.com.tw##header > .head > .logo_div > .frame_box > .object > .top_icon
 news.xfastest.com##.code-block-2.code-block
 nmac.to##.signoff
 open.spotify.com##.jbcotm
-osmocom.org###sidebar
 outlook.live.com##.GssDD
 outlook.live.com##.Soq5F
 pansci.asia#@#.ad-container
@@ -290,7 +258,6 @@ pansci.asia##.ad-container
 pansci.asia##.all_top
 pansci.asia##.pan-notibar-wrap
 pansci.asia##.stript.d-sm-block.d-none.col-sm-1
-peanutwalker.com###sidebar
 pets.ettoday.net##[class*="et_social"]
 pets.ettoday.net###et_sticky_pc
 pixnet.net##.pixnet-happix-pilot__launcher-bar-desktop
@@ -304,8 +271,6 @@ professorlin.com##.widget_eu_cookie_law_widget
 professorlin.com###main-image
 purewine.tw##.warning_area
 regex101.com##._2C1Ky._3Brs_
-safood.tw###sidebar
-safood.tw##blockquote
 sentry.io
 shengliu.substack.com##.post-end-cta-full
 shop.iscopet.com##.toolbox--bounce-in.toolbox__container
@@ -332,17 +297,10 @@ taiwan.chtsai.org##.sidebar-inner
 tech.udn.com##.social-share
 tech.udn.com##.story-aside
 technews.tw##.ad-blocking-advisor-wrapper
-technews.tw##.footer_frame
-technews.tw##.googlenews_Content
-technews.tw##.newsLetter_articleContent
-technews.tw##.premium-tag
-technews.tw##.social
-technews.tw##.topbar-plugin
-technews.tw##.widget_banner.widget
+technews.tw##.footer_frame,.googlenews_Content,.newsLetter_articleContent,.premium-tag,.social,.topbar-plugin,.widget_banner.widget
 technews.tw##[class^=""inside_AD""]
 technews.tw##[id^=""div-gpt-ad""]
-technews.tw###ADTOP
-technews.tw###inside_AD
+technews.tw###ADTOP,#inside_AD
 technews.tw##hgroup > .logobar
 thefemin.com##.columns.medium-4.small-12.sidebar
 thefemin.com##.share-main
@@ -353,18 +311,9 @@ trello.com##.t21uvMvjLKZ693
 tvbs.com.tw##.tagboard-embed
 tw.appledaily.com###div-GDPR-message
 tw.dictionary.search.yahoo.com##.sys_dict_native_ads
-tw.news.yahoo.com##.caas-share-section
-tw.news.yahoo.com###module-articleRecommendedItems
-tw.news.yahoo.com###YDC-Col1-Stack > div > div:nth-of-type(5)
 tw.stock.yahoo.com##.caas-share-section
 tw.thebalvenie.com##.twStaticFooter
-udn.com##.article-content__ads--bd
-udn.com##.article-content__plugins
-udn.com##.footer-social
-udn.com##.social-wrapper
-udn.com##.udn-idle
-udn.com##.udn-overlay
-udn.com##.wrapper-aside
+udn.com##.article-content__ads--bd,.article-content__plugins,.footer-social,.social-wrapper,.udn-idle,.udn-overlay,.wrapper-aside
 unsplash.com##._2vZEJ
 unsplash.com##._38MNN._30ce3
 unsplash.com##._3rh8J
@@ -386,6 +335,7 @@ www.609.com.tw##.poster
 www.9game.cn##.guide-app-fix
 www.adaymag.com##.share-main
 www.aida64.com###ml-webforms-popup-5046896
+www.backblaze.com##.ju_wrapper
 www.bloomberg.com##.dvz-v0-ad-top.dvz-v0-ad
 www.bloomberg.com##.dvz-v0-ad-top.dvz-v0-ad > .dvz-v0-ad-div
 www.bloomberg.com###fortress-preblocked-container-root
@@ -399,13 +349,8 @@ www.businesstoday.com.tw##.next__article__aside-block.article__aside-block
 www.buyandship.com.tw##.bs-cookie-consent
 www.cardu.com.tw##.move.col0.index-content-right
 www.chateaux.com.tw##.footerWarning
-www.chinatimes.com##.affiliates
+www.chinatimes.com##.affiliates,.logo-want-want-chinatimes-group,.promote-banner,.social-media-links,.social-share-wrapper,.subscribe-news-letter
 www.chinatimes.com##.col-md-auto > .social-share
-www.chinatimes.com##.logo-want-want-chinatimes-group
-www.chinatimes.com##.promote-banner
-www.chinatimes.com##.social-media-links
-www.chinatimes.com##.social-share-wrapper
-www.chinatimes.com##.subscribe-news-letter
 www.chinatimes.com##div.column-left > .subscribe-news-letter
 www.cna.com.tw##.appDownload.paragraph.jsAppDownload
 www.cna.com.tw##.mySubscriptionInner.SubscriptionInner
@@ -423,15 +368,8 @@ www.ctwant.com##.m-GDPR
 www.ctwant.com##.m-notification
 www.ctwant.com##.m-sharebar
 www.cw.com.tw##.article__function > .article__share
-www.cw.com.tw##.cw__advertising
-www.cw.com.tw##.fixed.logInStatus.main.paywallAnnounce
-www.cw.com.tw##.hello__bar
-www.cw.com.tw##.logInStatus.main.paywallAnnounce
-www.cw.com.tw##.newsletter
-www.cw.com.tw##.text-center.banner
-www.cw.com.tw##.text-center.bottombar
-www.cw.com.tw###author-track-notification
-www.cw.com.tw###newletter-subscribe
+www.cw.com.tw##.cw__advertising,.fixed.logInStatus.main.paywallAnnounce,.hello__bar,.logInStatus.main.paywallAnnounce,.newsletter,.text-center.banner,.text-center.bottombar
+www.cw.com.tw###author-track-notification,#newletter-subscribe
 www.cw.com.tw##div.banner:nth-of-type(2)
 www.digitimes.com.tw##.p-b-20.txt-16.m-b-5.list-inline > li > .fb-share-button
 www.drinks.com.tw##footer > .align-center.inline-block
@@ -439,33 +377,16 @@ www.edntaiwan.com##.clearfix.fixed-top.top-navigation
 www.edntaiwan.com##.navigation-menu
 www.eettaiwan.com##.bg-light.navbar-light.fixed-top.navbar-expand-lg.navbar
 www.eettaiwan.com##.clearfix.fixed-top.top-navigation
-www.entertainment14.net##.responsive_ads_box
-www.entertainment14.net##.sideShareButtons
+www.entertainment14.net##.responsive_ads_box,.sideShareButtons
 www.etas.com##.cm-bg
-www.ettoday.net##.et_ad_group_1
-www.ettoday.net##.et_push_notification
-www.ettoday.net##.et_social_1
-www.ettoday.net##.et_social_2
-www.ettoday.net##.et_social_3
-www.ettoday.net##.fb_iframe_widget.fb-quote
-www.ettoday.net##.overlap
-www.ettoday.net###et_sticky_pc
-www.ettoday.net###info_box
+www.ettoday.net##.et_ad_group_1,.et_push_notification,.et_social_1,.et_social_2,.et_social_3,.fb_iframe_widget.fb-quote,.overlap
+www.ettoday.net###et_sticky_pc,#info_box
 www.ewdna.com##.bulletin_body
-www.fooding.com.tw##.modal-overlay
-www.fooding.com.tw##.text-center.modal-privacy
-www.foodnext.net##.AD-Entry
-www.foodnext.net##.btnsocial
-www.foodnext.net##.MemberWidget
-www.foodnext.net##.mt15.AD-Entry
-www.foodnext.net##.share-sidebar
-www.foodnext.net##.share-tool
-www.fox-saying.com##.pixnet-happix-pilot__launcher-bar-desktop
-www.fox-saying.com##.pixnet-happix-pilot__launcher-bubble
-www.fox-saying.com###header
-www.fox-saying.com###user-info
-www.ftvnews.com.tw##.share-btn
-www.ftvnews.com.tw##.side-menu-container
+www.fooding.com.tw##.modal-overlay,.text-center.modal-privacy
+www.foodnext.net##.AD-Entry,.btnsocial,.MemberWidget,.mt15.AD-Entry,.share-sidebar,.share-tool
+www.fox-saying.com##.pixnet-happix-pilot__launcher-bar-desktop,.pixnet-happix-pilot__launcher-bubble
+www.fox-saying.com###header,#user-info
+www.ftvnews.com.tw##.share-btn,.side-menu-container
 www.gogobar.com.tw##.warning
 www.google.com##.show.chr-cookie-banner
 www.gvm.com.tw##.floating-share
@@ -477,17 +398,11 @@ www.infoq.cn##.header-notice
 www.infoq.cn##.no-catalog.operation-bar
 www.inside.com.tw##.block-relative-articles.block
 www.inside.com.tw##.content > .container > .subscribe_block
-www.inside.com.tw##.footer_bottom
-www.inside.com.tw##.is-loading.js-hero.hero
-www.inside.com.tw##.job
-www.inside.com.tw##.job_feed_block
-www.inside.com.tw##.js-post_footer.post_footer
-www.inside.com.tw##.post_toolbox-sticky
+www.inside.com.tw##.footer_bottom,.is-loading.js-hero.hero,.job,.job_feed_block,.js-post_footer.post_footer,.post_toolbox-sticky
 www.inside.com.tw###block-fb_comments
 www.ithome.com.tw##.footer
 www.ithome.com.tw###block-block-45
-www.ithome.com##.AdblockBanner
-www.ithome.com##.shareto
+www.ithome.com##.AdblockBanner,.shareto
 www.ithome.com###side_func
 www.jv.com.tw##.aphorism_block
 www.jyes.com.tw##.push-notification
@@ -512,8 +427,7 @@ www.mirrormedia.mg##.the-gdpr
 www.mobile01.com/ajax/forum/idlebox.php
 www.mobile01.com/topicdetail.php
 www.mobile01.com##.docking_share
-www.mobile01.com##.fancybox-container
-www.mobile01.com##.fixedbottom
+www.mobile01.com##.fancybox-container,.fixedbottom
 www.mobile01.com##.l-heading > .l-heading__title > .l-toolBar--noborder.l-toolBar.l-horizontal
 www.mobile01.com###fixeddiv
 www.money101.com.tw##.bg-neutral-primary.px-2.py-4.contain-content
@@ -539,7 +453,6 @@ www.pinterest.com###__PWS_ROOT__ > .Hsu.iyn.zI7 > div > .Hsu.iyn.zI7 > div > div
 www.pinterest.com###credential_picker_container
 www.playpcesor.com###HTML3
 www.playpcesor.com###spb-information-bar
-
 www.ptt.cc###navigation-container
 www.reddit.com##._288IzKhWMb7Dw403RofBU8._3OMmYPy8XZymvnsxBSK3c0._1sDiFFHKyPJghjPpVTW7vB
 www.reddit.com##.premium-banner-outer
@@ -554,28 +467,14 @@ www.setn.com##.hidden-print.rightFloat
 www.shoppingdesign.com.tw##.popup-intro
 www.shoppingdesign.com.tw##.share_box
 www.skybar.com.tw###footer
-www.soft4fun.net##.blockMsg
-www.soft4fun.net##.blockOverlay
-www.soft4fun.net##.blockPage
-www.soft4fun.net##.blockUI
-www.storm.mg###donation_block
-www.storm.mg###header_top
-www.storm.mg###info_donation
-www.storm.mg###stock_bar
+www.smartm.com##.show.policy
+www.soft4fun.net##.blockMsg,.blockOverlay,.blockPage,.blockUI
+www.storm.mg###donation_block,#header_top,#info_donation,#stock_bar
 www.tainanlohas.cc##[href="https://www.instagram.com/tainanlohas/"]
 www.tainanlohas.cc##[href="https://www.tainanlohas.cc/p/cooperation-proposal.html"]
 www.taiwanfarm.com.tw###modal-root
-www.techbang.com##.ad-section
-www.techbang.com##.content-top
-www.techbang.com##.google-dfp
-www.techbang.com##.line-link-wrapper
-www.techbang.com##.newsletter-subscribe
-www.techbang.com##.post-side
-www.techbang.com###dmRelatedPlayer
-www.techbang.com###idle-container
-www.techbang.com###post-additional
-www.techbang.com###stickie_70008519251060
-www.techbang.com###stickies
+www.techbang.com##.ad-section,.content-top,.google-dfp,.line-link-wrapper,.newsletter-subscribe,.post-side
+www.techbang.com###dmRelatedPlayer,#idle-container,#post-additional,#stickie_70008519251060,#stickies
 www.telerik.com##.Box--ribbon.Box
 www.theverge.com##.adblock-allowlist-messaging__iframe
 www.tibs.org.tw###alertWord
@@ -585,28 +484,20 @@ www.tt1069.com##font.jammer
 www.ttl.com.tw##.slogan
 www.tvbs.com.tw##.policy
 www.twreporter.org##[class^="donation-box"]:has-text("贊助")
-www.upmedia.mg##.icon-bar
-www.upmedia.mg##.share
-www.upmedia.mg###bottome-ad
-www.upmedia.mg###footer
-www.upmedia.mg###shareout
-www.upmedia.mg###top-link
+www.upmedia.mg##.icon-bar,.share
+www.upmedia.mg###bottome-ad,#footer,#shareout,#top-link
 www.vicorpower.com##.show.collapse
 www.wait9time.com###warning
 www.wanshang.com.tw###alcohol-warning
 www.washingtonpost.com##.overflow-hidden.border-box.w-100
 www.wikihow.com###article_courses_banner
 www.williamlong.info##div.clearfix.sidebar-box:nth-of-type(1)
-www.wine0222.com##.footer_tag
-www.wine0222.com##.header-sheet
-www.winentaste.com##.notice
-www.winentaste.com##.promo
+www.wine0222.com##.footer_tag,.header-sheet
+www.winentaste.com##.notice,.promo
 www.winho.com.tw##.footer_privacy-container
 www.xtube.com##.expandAside.col10-xxl-3.col-xl-8.col-xs-24
 www.yamaha-motor.com.tw##.active.agreePrivacy
-www.youtube.com##.ytp-ce-element-show
-www.youtube.com##.ytp-ce-video.ytp-ce-element
+www.youtube.com##.ytp-ce-element-show,.ytp-ce-video.ytp-ce-element
 www.zhangxinxu.com##cvkw-hi
-xclient.info##.notice_tip
-xclient.info##.show.abptip
+xclient.info##.notice_tip,.show.abptip
 xclient.info###abptip
