@@ -87,6 +87,7 @@ aniseblog.tw##p:has-text(/加入愛吃鬼/)
 ||www.ctbcbank.com/app/ctbc/ib/inc/img/login/login*.png$image
 ||www.ctbcbank.com/content/dam/ctbc-ib/zh_rb/general/ebhomepage/login*.jpg$image
 ||www.ewdna.com^$script
+||www.inmediahk.net/files/field/image/web-banner-2x.jpeg$image
 ||www.jyes.com.tw/themes/zh-tw/assets/images/index-news-bg.jpg$image
 ||www.tainan.gov.tw/Images/bg.jpg
 ||www.tainandaypass.tw/images/main_banner01.jpg$image
@@ -396,6 +397,8 @@ www.icheers.tw##.Warning
 www.icloud.com##.banner-view
 www.infoq.cn##.header-notice
 www.infoq.cn##.no-catalog.operation-bar
+www.inmediahk.net##.donate-form
+www.inmediahk.net##footer
 www.inside.com.tw##.block-relative-articles.block
 www.inside.com.tw##.content > .container > .subscribe_block
 www.inside.com.tw##.footer_bottom,.is-loading.js-hero.hero,.job,.job_feed_block,.js-post_footer.post_footer,.post_toolbox-sticky
@@ -490,6 +493,7 @@ www.vicorpower.com##.show.collapse
 www.wait9time.com###warning
 www.wanshang.com.tw###alcohol-warning
 www.washingtonpost.com##.overflow-hidden.border-box.w-100
+www.wealth.com.tw##div > div > div:has-text(/cookies/)
 www.wikihow.com###article_courses_banner
 www.williamlong.info##div.clearfix.sidebar-box:nth-of-type(1)
 www.wine0222.com##.footer_tag,.header-sheet
