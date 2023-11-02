@@ -155,6 +155,7 @@ dq.yam.com##.ga_trackEvent.noteBar
 dq.yam.com###dqstoreBox
 dq.yam.com###skyNoticeDesk
 dq.yam.com###yd-PlugIn
+dq.yam.com##.post__contentWrap>div:has(p:has-text(/贊助/))
 ec.ltn.com.tw##.softPush_notification
 ec.ltn.com.tw##.text > p:has-text(/訂閱自由/)
 ec.ltn.com.tw##.text > p:has-text(/點我下載APP/)
@@ -202,6 +203,9 @@ israynotarray.com##.post-footer
 israynotarray.com##.post-meta
 ithelp.ithome.com.tw##.social-share
 js/fb_mask.js
+dq.yam.com##.post__contentWrap>div:has(p:has-text(/贊助/))
+dq.yam.com##.slide-wrap
+juejin.cn##.bottom-login-guide
 juejin.cn##.dark-mode-notification
 juejin.cn##.dynamic-data-ready.article-suspended-panel
 juejin.cn##.recommend-box
