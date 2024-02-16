@@ -363,7 +363,6 @@ www.cna.com.tw##.need.privacy-bar
 www.cna.com.tw##.shareSide
 www.codelinaro.org##.container-fluid
 www.cool3c.com##.social-bar
-www.cool3c.com###body > div.row:has-text(/pcloud/i)
 www.cool3c.com###menu-sidebar
 www.costco.com.tw##.warning
 www.ctbcbank.com##div.col-lg-6.col-md-12.col-sm-12.col-12:nth-of-type(2)
