@@ -78,7 +78,6 @@ aniseblog.tw##p:has-text(/加入愛吃鬼/)
 ||platform.twitter.com/widgets/*$subdocument
 ||soft4fun.net^$inline-script
 ||steachs.com^$script
-||theverge.com^$script
 ||unwire.hk^$inline-script
 ||wcc723.github.io/images/2021/avatar.png$image
 ||wired.com^$script
