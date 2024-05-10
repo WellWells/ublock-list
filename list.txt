@@ -507,3 +507,64 @@ www.youtube.com##.ytp-ce-element-show,.ytp-ce-video.ytp-ce-element
 www.zhangxinxu.com##cvkw-hi
 xclient.info##.notice_tip,.show.abptip
 xclient.info###abptip
+*##.m:has-text("Sign up for free")
+*###achang_fb_slide
+||rmis.cht.com.tw/portal/images/logo-m.png$image
+||www.casper.tw/images/2021/avatar.png$image
+app.daily.dev##.px-3.h-16.items-center.flex.mt-4
+blog.logrocket.com##.code-block
+cdn-news.org##.footer-area-bottom.cookies-attention
+dev.to##.fixed.js-billboard
+dev.to##.popover-billboard--menuopenupwards
+feedly.com##.AppDockedPopups
+feedly.com##.LeftnavItemDisabled
+feedly.com##.LeftnavList__list > div > div:has-text(/Trial/)
+forum.gamer.com.tw##.c-user > .gamercard.c-user__avatar
+forum.gamer.com.tw###driver-popover-item
+forum.gamer.com.tw##section.c-section:has(.popular__title:has-text(/天雨/))
+gamer.com.tw##section.c-section:has(p:has-text(/天雨亞子/))
+gnn.gamer.com.tw###BH-master>div:has-text(/天雨/)
+https://cdn.shop.7-11.com.tw/errorpage/web/404.html
+https://www.cnbeta.com.tw/themes/v6/images/top_bg.png
+https://www.hola.com.tw/*/log
+https://www.okmart.com.tw/images/bgLogo.png
+https://www.trplus.com.tw/*/log
+juejin.cn##.bottom-login-guide
+price.nat.gov.tw##.sign
+rmis.cht.com.tw/portal/images/background.jpg
+sale.ttl.com.tw##.slogan
+seositecheckup.com##.ant-modal-centered.ant-modal-wrap
+stackoverflow.com##.js-notice-sidebar-popover
+steamdb.info##.armored-headcrab
+tinypng.com##.hero-container
+trello.com##.unsupported-browser-banner
+unwire.hk##.main-content > footer
+unwire.hk##.newsletter-subscription
+unwire.hk##.post-main-ad
+unwire.hk##.video-container
+upsangel.com##[href*="surfshark-one"]
+upsangel.com##[href*="surfshark"]
+www.acwifi.net##.code-block
+www.asustor.com###gdpr_wrap
+www.ching-win.com.tw##.top_adbox
+www.cna.com.tw##.fixedBottom
+www.cool3c.com##.article-row:has-text(/本文章內容由「pCloud」提供。/)
+www.cool3c.com##.gtm-track.link:has-text(/pCloud/)
+www.cool3c.com##div.d-xl-block.d-lg-block.d-md-block.d-sm-block.d-block.col-xl-4.col-md-6.col-12:has-text(/pCloud/)
+www.cool3c.com##div.item:has-text(/pcloud/i)
+www.cool3c.com##div.row:nth-of-type(3) > .col-12 > div.row:has-text(/pCloud/)
+www.ithome.com###rm-login-modal
+www.macrumors.com##[class*="abovebanner"]
+www.money101.com.tw##[class*="newsletter"]
+www.money101.com.tw##p:has-text('閱讀更多')
+www.money101.com.tw##table:has-text("推薦")
+www.philips-da.com.tw###omnisegment-iframe
+www.phoronix.com##div:has-text(/ad blocker/)
+www.reddit.com##+js(aeld, mousedown, isSelectionOutOfRange)
+www.reddit.com##+js(aeld, mouseup, shouldShowButton)
+www.sinya.com.tw##.adMask
+www.tiktok.com##.e1gjoq3k0.css-py8jux-DivModalContainer
+www.torproject.org##.banner-content-spacer
+www.twbeer.com.tw##.footer
+www.twbeer.com.tw##footer
+www.youtube.com##ytd-video-renderer.ytd-expanded-shelf-contents-renderer.style-scope:has-text(/shorts/i)
