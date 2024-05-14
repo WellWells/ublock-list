@@ -66,7 +66,6 @@ aniseblog.tw##p:has-text(/加入愛吃鬼/)
 ||i0.wp.com/decing.tw/wp-content/uploads/20220819213146_70.jpg$image
 ||i17fun.com^$script
 ||ieeexplore.ieee.org/customer_logos/$image
-||inside.com.tw^$script
 ||lastpass.com/ads.php$1p
 ||linux.vbird.org/include/gotoksu.gif$image
 ||minwt.com^$script
