@@ -293,8 +293,6 @@ star.ettoday.net##.c2
 star.ettoday.net##.msg
 star.ettoday.net###ettoday_channel_frame
 store.vuetifyjs.com##.v-footer--fixed.theme--dark.v-sheet.justify-center.align-center.d-flex.ma-0.pa-0.v-footer
-stripe.com
-stripe.network
 tag.kikinote.net
 taiwan.chtsai.org##.sidebar-inner
 tech.udn.com##.social-share
