@@ -533,7 +533,6 @@ sale.ttl.com.tw##.slogan
 seositecheckup.com##.ant-modal-centered.ant-modal-wrap
 stackoverflow.com##.js-notice-sidebar-popover
 steamdb.info##.armored-headcrab
-tinypng.com##.hero-container
 trello.com##.unsupported-browser-banner
 unwire.hk##.main-content > footer
 unwire.hk##.newsletter-subscription
