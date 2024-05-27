@@ -47,7 +47,6 @@ aniseblog.tw##p:has-text(/加入愛吃鬼/)
 *###cookieLaw
 *###cookieMessage
 *###gdprBox
-*##div[class*="ad--"]
 *##div[class*="gdrp"]
 *##div[class*="policy-div"]
 *##div[class="container-component"]>div[class*="sc-"]
