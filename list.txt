@@ -273,7 +273,6 @@ professorlin.com##.widget_eu_cookie_law_widget
 professorlin.com###main-image
 purewine.tw##.warning_area
 regex101.com##._2C1Ky._3Brs_
-sentry.io
 shengliu.substack.com##.post-end-cta-full
 shop.iscopet.com##.toolbox--bounce-in.toolbox__container
 shopee.*##div.shopee-search-item-result__item:has(div[data-sqe] div[data-sqe*="ad"])
