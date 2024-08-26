@@ -57,7 +57,6 @@ aniseblog.tw##p:has-text(/加入愛吃鬼/)
 ||cnbeta.com^$script
 ||connect.facebook.net/zh_TW/sdk.js
 ||consent.dropbox.com/?hide_gdpr=false$subdocument
-||decing.tw^$script
 ||eatmary.net^$inline-script
 ||fullfenblog.tw^$script
 ||global.udn.com^$script
