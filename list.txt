@@ -452,7 +452,6 @@ www.pinterest.com###__PWS_ROOT__ > .Hsu.iyn.zI7 > div > .Hsu.iyn.zI7 > div > div
 www.pinterest.com###credential_picker_container
 www.playpcesor.com###HTML3
 www.playpcesor.com###spb-information-bar
-www.ptt.cc###navigation-container
 www.reddit.com##._288IzKhWMb7Dw403RofBU8._3OMmYPy8XZymvnsxBSK3c0._1sDiFFHKyPJghjPpVTW7vB
 www.reddit.com##.premium-banner-outer
 www.reddit.com###welcome-tooltip-id
