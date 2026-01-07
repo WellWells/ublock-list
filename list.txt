@@ -3,7 +3,7 @@
 ! Homepage: https://github.com/WellWells/ublock-list
 feedly.com##[class*=Layout]:has-text(/少康|快刪|唐鳳|達人|Joeman|竟然|驚見|網曝|蘋果爹/)
 tw.news.yahoo.com##.simple-list-item,.StreamMegaItem,.caas-container,.rapidnofollow,.simple-list-item-v2 :has-text(/驚呆|震驚|丁特|轟爆|網曝|三立|東森新聞|唐鳳|蕭達多|不忍了|傻眼|不忍了|哀號|達人|專家|果粉|竟然|驚見|廖梓翔|中招|蘋果爹|太強|早安健康/)
-www.google.com##div.MjjYud:has-text(/Joeman|廖阿輝|Tim哥|蘋果爹|大耳朵|陳寗/)
+www.google.com##:is(.vt6azd.asEBEc.tF2Cxc.Ww4FFb.wHYlTd,.r5bEn.lSfe4c,.Ww4FFb.vt6azd.wHYlTd.PmEWq,.vIifob.b2Rnsc):has-text(/joeman|九妹|廖阿輝|Tim哥|蘋果爹|大耳朵|陳寗/i)
 www.ptt.cc###main-container:has-text(/三立新聞|大耳朵/)
 www.youtube.com##ytd-video-renderer:has-text(/陳寗|Tim哥|蘋果爹|人夫阿康|電獺少女|倫敦印象|志祺七七|HOOK|劉沛|聖結石|賴瑞|Joeman|愛莉莎莎|玩物誌|Toyz|邦尼|阿哲/)
 aniseblog.tw,fullfenblog.tw,decing.tw,4co.tw,boylondon.tw,bobowin.blog,peanutwalker.com##.bottom-side-menu,.right-side-menu,.widget-area.sidebar,.site-branding,.has-logo,.code-block,.fbbox,.ad-single-top
